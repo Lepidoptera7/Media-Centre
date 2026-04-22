@@ -1,0 +1,1673 @@
+id,peopleId,seriesId,personName,name
+64621157,248031,80379,Mayim Bialik,Amy Farrah Fowler
+64621160,248032,80379,Melissa Rauch,Bernadette Rostenkowski
+64621164,248033,80379,Kunal Nayyar,Rajesh Koothrappali
+64621170,248034,80379,Simon Helberg,Howard Wolowitz
+64621175,248035,80379,Kaley Cuoco,Penny
+64621179,248036,80379,Johnny Galecki,Leonard Hofstadter
+64621184,248037,80379,Jim Parsons,Sheldon Cooper
+64621188,248038,80379,Laura Spencer,Emily Sweeney
+64621192,248039,80379,Sara Gilbert,Leslie Winkle
+64621196,248040,80379,Kevin Sussman,Stuart Bloom
+64621200,248041,80379,John Ross Bowie,Barry Kripke
+64621204,248042,80379,Carol Ann Susi,Debbie Wolowitz
+63967220,304377,79168,Jennifer Aniston,Rachel Green
+63967222,321165,79168,Lisa Kudrow,Phoebe Buffay
+63967224,282129,79168,Matthew Perry,Chandler Bing
+63967225,274631,79168,David Schwimmer,Ross Geller
+63967226,254682,79168,Courteney Cox,Monica Geller
+63967227,327327,79168,Matt LeBlanc,Joey Tribbiani
+69194995,7990743,79168,James Michael Tyler,Gunther
+63479517,7897285,78107,Julie Fernandez,Brenda
+63479520,338867,78107,Martin Freeman,Tim Canterbury
+63479522,418734,78107,Stirling Gallacher,Jennifer Taylor-Clark
+63479524,310469,78107,Ricky Gervais,David Brent
+63479527,376587,78107,Kiki Kendrick,
+63479528,7897289,78107,Jamie Deeks,Jamie
+63479529,290528,78107,Patrick Baladi,Neil Godwin
+63479530,445050,78107,Ewen MacIntosh,Keith
+63479532,361326,78107,Rachel Isaac,Trudy
+63479535,7897290,78107,Stacey Roca,Rachel
+63479537,457486,78107,Alexander Perkins,Ralph
+63479538,444754,78107,Oliver Chris,Ricky Howard
+63479541,434102,78107,Joel Beckett,Lee
+63479544,272580,78107,Sally Bretton,Donna
+63479545,247978,78107,Ralph Ineson,Chris 'Finchy' Finch
+63479548,321524,78107,Lucy Davis,Dawn Tinsley
+63479549,247992,78107,Mackenzie Crook,Gareth Keenan
+65264224,255067,73244,Jenna Fischer,Pam Beesly
+65264231,327265,73244,John Krasinski,Jim Halpert
+65264235,255150,73244,Rainn Wilson,Dwight Schrute
+65264240,296970,73244,Steve Carell,Michael Scott
+65264243,314598,73244,Leslie David Baker,Stanley Hudson
+65264250,348837,73244,Brian Baumgartner,Kevin Malone
+65264256,284456,73244,Oscar Nuñez,Oscar Martinez
+65264261,358559,73244,B.J. Novak,Ryan Howard
+65264266,308132,73244,Angela Kinsey,Angela Martin
+65264270,334069,73244,Phyllis Smith,Phyllis Vance
+65264275,310233,73244,Ed Helms,Andy Bernard
+65264277,308209,73244,Kate Flannery,Meredith Palmer
+65264282,255102,73244,Mindy Kaling,Kelly Kapoor
+65264286,302586,73244,Creed Bratton,Creed Bratton
+65264291,255300,73244,Melora Hardin,Jan Levinson-Gould
+65264295,310175,73244,Paul Lieberstein,Toby Flenderson
+65264300,274847,73244,David Denman,Roy Anderson
+65264303,280092,73244,Craig Robinson,Darryl Philbin
+65264310,311179,73244,Ellie Kemper,Erin Hannon
+65264313,269720,73244,Amy Ryan,Holly Flax
+65264319,310407,73244,James Spader,Robert California
+65264322,271428,73244,Catherine Tate,Nellie Bertram
+65264326,358475,73244,Zach Woods,Gabe Lewis
+65264330,310905,73244,Rashida Jones,Karen Filippelli
+63975938,247831,121361,Michelle Fairley,Catelyn Stark
+63975957,247836,121361,Joe Dempsie,Gendry
+63975976,247840,121361,Oona Chaplin,Talisa Maegyr
+63975991,247845,121361,Hannah Murray,Gilly
+63976004,247847,121361,Michael McElhatton,Roose Bolton
+63976011,247849,121361,Dean-Charles Chapman,Tommen Baratheon
+63976026,247851,121361,Carice van Houten,Melisandre
+63976031,247852,121361,Rose Leslie,Ygritte
+63976035,247853,121361,Jack Gleeson,Joffrey Baratheon
+63976039,247854,121361,Nikolaj Coster-Waldau,Jaime Lannister
+63976043,247855,121361,Richard Madden,Robb Stark
+63976047,247856,121361,Jason Momoa,Khal Drogo
+63976052,247857,121361,Alfie Allen,Theon Greyjoy
+63976056,247858,121361,Sean Bean,Ned Stark
+63976058,247859,121361,Harry Lloyd,Viserys Targaryen
+63976069,247862,121361,Jerome Flynn,Bronn
+63976079,247864,121361,Sibel Kekilli,Shae
+63976083,247865,121361,James Cosmo,Jeor Mormont
+63976093,247868,121361,Rory McCann,Sandor Clegane
+63976096,247869,121361,Stephen Dillane,Stannis Baratheon
+63976101,247871,121361,Charles Dance,Tywin Lannister
+63976104,247872,121361,Iain Glen,Jorah Mormont
+63976107,247873,121361,Aidan Gillen,Petyr Baelish
+63976110,247874,121361,Gwendoline Christie,Brienne of Tarth
+63976116,247876,121361,Michiel Huisman,Daario Naharis
+63976119,247877,121361,Indira Varma,Ellaria Sand
+63976122,247878,121361,Mark Addy,Robert Baratheon
+63976129,247880,121361,Jacob Anderson,Grey Worm
+63976133,247881,121361,Iwan Rheon,Ramsay Bolton
+63976139,247882,121361,Tom Wlaschiha,Jaqen H'ghar
+63976144,247883,121361,Liam Cunningham,Davos Seaworth
+63976148,247884,121361,Nathalie Emmanuel,Missandei
+63976158,247886,121361,Jonathan Pryce,High Sparrow
+63976184,247891,121361,Kristofer Hivju,Tormund Giantsbane
+63976209,247899,121361,John Bradley,Samwell Tarly
+63976211,247900,121361,Conleth Hill,Varys
+63976213,247901,121361,Sophie Turner,Sansa Stark
+63976215,247902,121361,Maisie Williams,Arya Stark
+63976217,247903,121361,Isaac Hempstead Wright,Bran Stark
+63976219,247904,121361,Lena Headey,Cersei Lannister
+63976221,247905,121361,Natalie Dormer,Margaery Tyrell
+63976223,247906,121361,Emilia Clarke,Daenerys Targaryen
+63976226,247907,121361,Peter Dinklage,Tyrion Lannister
+63976230,247909,121361,Kit Harington,Jon Snow
+64178859,269404,81189,Anna Gunn,Skyler White
+64178863,275750,81189,Aaron Paul,Jesse Pinkman
+64178867,248280,81189,Dean Norris,Hank Schrader
+64178871,325833,81189,Betsy Brandt,Marie Schrader
+64178876,472989,81189,RJ Mitte,Walter White Jr.
+64178879,255211,81189,Bryan Cranston,Walter White
+64178885,290451,81189,Bob Odenkirk,Saul Goodman
+64178890,272968,81189,Giancarlo Esposito,Gustavo Fring
+64178899,293588,81189,Jonathan Banks,Mike Ehrmantraut
+64753159,296557,76156,John C. McGinley,Dr. Perry Cox
+64753163,284402,76156,Judy Reyes,Nurse Carla Espinosa
+64753166,310397,76156,Zach Braff,Dr. John Dorian 
+64753169,303421,76156,Sarah Chalke,Dr. Elliot Reid
+64753170,272889,76156,Ken Jenkins,Dr. Bob Kelso
+64753172,296552,76156,Neil Flynn,The Janitor
+64753174,266463,76156,Donald Faison,Dr. Christopher Turk 
+64753176,277601,76156,Sam Lloyd,Ted Buckland
+64753178,356690,76156,Robert Maschio,Todd Quinlan
+64753180,290047,76156,Aloma Wright,Nurse Laverne Roberts
+64753182,327287,76156,Christa Miller,Jordan Sullivan
+64753184,360650,76156,Eliza Coupe,Denise Mahoney
+64753186,404082,76156,Dave Franco,Cole McCallister
+64753188,404083,76156,Kerry Bishé,Lucy Bennett
+64753190,269586,76156,Michael Mosley,Drew Suffin
+64753192,282096,76156,Heather Graham,Dr. Molly Clock
+64753194,367281,76156,Johnny Kastl,Dr. Doug Murphy
+64753196,248085,76156,Travis Schuldt,Keith Dudemeister
+65935131,323956,74852,Mae Whitman,Katara
+65935133,370465,74852,Jack De Sena,Sokka
+65935134,285314,74852,Dante Basco,Zuko
+65935135,256852,74852,Mako,Iroh
+65935137,7893048,74852,Zach Tyler Eisen,Appa
+65935138,281259,74852,Dee Bradley Baker,Momo
+65935140,381499,74852,Jessie Flower,Toph Beifong
+65935142,291511,74852,James Garrett,Roku
+65935143,379829,74852,Jennie Kwan,Suki
+65935146,7893058,74852,Cricket Leigh,Mai
+65935147,290958,74852,Grey DeLisle,Azula
+65935148,292671,74852,Olivia Hack,Ty Lee
+65935150,248340,74852,Mark Hamill,Ozai
+65935152,253048,74852,Melendy Britt,Gran Gran
+65935159,346159,74852,Jason Isaacs,Zhao
+65939397,290958,74852,Grey DeLisle,Ursa
+65945178,7898503,74852,André Sogliuzzo,Bumi
+68771912,7893048,74852,Zach Tyler Eisen,Aang
+69318762,7898503,74852,André Sogliuzzo,Hakoda
+63506267,7902723,360261,Alexa Demie,Maddy Perez
+63506269,7902725,360261,Jacob Elordi,Nate Jacobs
+63506271,464868,360261,Algee Smith,Chris McKay
+63506273,304835,360261,Sydney Sweeney,Cassie Howard
+63506275,480296,360261,Storm Reid,Gia Bennett
+63506277,7902728,360261,Angus Cloud,Fezco
+63506279,7902729,360261,Barbie Ferreira,Kat Hernandez
+63506281,7902730,360261,Nika King,Leslie Bennett
+63506284,7902731,360261,Hunter Schafer,Jules Vaughn
+63506287,472753,360261,Maude Apatow,Lexi Howard
+63506291,327412,360261,Zendaya,Rue Bennett
+63506295,268163,360261,Eric Dane,Cal Jacobs
+63506297,569390,360261,Austin Abrams,Ethan Daley
+68604979,8548597,360261,Dominic Fike,Elliot
+69100858,8134460,360261,Javon 'Wanna' Walton,Ashtray
+69137568,317205,360261,Colman Domingo,Ali Muhammad
+64421786,475252,323385,Dan Jeannotte,Ryan Decker
+64421787,475253,323385,Aisha Dee,Kat Edison
+64421788,394910,323385,Meghann Fahy,Sutton Brady
+64421789,475254,323385,Katie Stevens,Jane Sloan
+64421790,255300,323385,Melora Hardin,Jacqueline Carlyle
+64421791,366504,323385,Sam Page,Richard Hunter
+64421792,475255,323385,Nikohl Boosheri,Adena El-Amin
+64421793,8036353,323385,Stephen Conrad Moore,Oliver Grayson
+64421794,389654,323385,Matt Ward,Alex Crawford
+64421795,8036354,323385,Luca James Lee,Ben Chau
+64421797,8036355,323385,Katerina Tannenbaum,Leila
+64421799,475259,323385,Adam Capriolo,Andrew
+64421801,334183,323385,Peter Vack,Patrick Duchand
+64421803,8036356,323385,Alexis Floyd,Tia Clayton
+64051817,522429,314614,Phoebe Waller-Bridge,Fleabag
+64051820,467260,314614,Sian Clifford,Claire
+64051823,348468,314614,Bill Paterson,Dad
+64051826,300806,314614,Olivia Colman,Godmother
+64051828,473023,314614,Brett Gelman,Martin
+64051830,493153,314614,Ben Aldridge,Arsehole Guy
+64051832,501728,314614,Hugh Skinner,Harry
+64051834,255641,314614,Hugh Dennis,Bank Manager
+64051836,302142,314614,Jamie Demetriou,Bus Rodent
+64051838,549516,314614,Jenny Rainsford,Boo
+64051840,295574,314614,Andrew Scott,Priest
+63442722,247850,361753,Pedro Pascal,The Mandalorian
+63442728,254381,361753,Carl Weathers,Greef Karga
+65412740,472879,361753,Gina Carano,Cara Dune
+65725041,272968,361753,Giancarlo Esposito,Moff Gideon
+68909435,248121,361753,Katee Sackhoff,Bo-Katan Kryze
+68909442,7894569,361753,Emily Swallow,The Armorer
+68922174,628799,361753,David Acord,The Child
+69271282,479598,361753,Tait Fletcher,Paz Vizsla
+69271283,9087547,361753,Wesley Kimmel,Ragnar
+69271964,310372,361753,Jon Favreau,
+69271965,310372,361753,Jon Favreau,
+69271966,381502,361753,Dave Filoni,
+69271967,497246,361753,Kathleen Kennedy,
+69271968,388486,361753,Colin Wilson,
+69277673,9134897,361753,John Bartnicki,
+69295402,614706,361753,Rick Famuyiwa,
+64833696,270520,153021,Sarah Wayne Callies,Lori Grimes
+64833699,316117,153021,Jon Bernthal,Shane Walsh
+64833702,269776,153021,Jeffrey DeMunn,Dale Horvath
+64833706,291968,153021,Laurie Holden,Andrea Harrison
+64833710,261532,153021,Emma Bell,Amy Harrison
+64833715,8082945,153021,Irone Singleton,Theodore Douglas / T-Dog
+64833720,7919345,153021,Scott Wilson,Hershel Greene
+64833724,317556,153021,Emily Kinney,Beth Greene
+64833729,294173,153021,Michael Rooker,Merle Dixon
+64833734,311461,153021,David Morrissey,Philip Blake / The Governor
+64833738,294207,153021,Sonequa Martin-Green,Sasha Williams
+64833742,269725,153021,Chad L. Coleman,Tyreese Williams
+64833744,475498,153021,Chandler Riggs,Carl Grimes
+64833747,300481,153021,Dallas Roberts,Milton Mamet
+64833748,450424,153021,Lawrence Gilliard Jr.,Bob Stookey
+64833750,252396,153021,Michael Cudlitz,Abraham Ford
+64833753,475499,153021,Josh McDermitt,Eugene Porter
+64833756,475500,153021,Tyler James Williams,Noah
+64833758,327868,153021,Austin Nichols,Spencer Monroe
+64833762,267366,153021,Jeffrey Dean Morgan,Negan
+64833765,341203,153021,Steven Ogg,Simon
+64833767,475501,153021,Pollyanna McIntosh,Anne/Jadis
+64833770,475502,153021,Katelyn Nacon,Enid
+64833772,475503,153021,Ross Marquand,Aaron
+64833774,295568,153021,Khary Payton,Ezekiel
+64833779,475504,153021,Austin Amelio,Dwight
+64833783,475505,153021,Tom Payne,Paul Rovia
+64833787,260910,153021,Lennie James,Morgan Jones
+64833794,317377,153021,Seth Gilliam,Gabriel Stokes
+64833799,379486,153021,Christian Serratos,Rosita Espinosa
+64833803,302169,153021,Andrew Lincoln,Rick Grimes
+64833807,331141,153021,Danai Gurira,Michonne
+64833812,268782,153021,Norman Reedus,Daryl Dixon
+64833815,354389,153021,Melissa McBride,Carol Peletier
+64833818,327404,153021,Lauren Cohan,Maggie Greene
+64833821,327406,153021,Steven Yeun,Glenn Rhee
+64833825,369663,153021,Alanna Masterson,Tara Chambler
+64833828,295855,153021,Dan Fogler,Luke
+64833834,475506,153021,Cooper Andrews,Jerry
+64833839,353635,153021,Eleanor Matsuura,Yumiko
+64833845,318680,153021,Samantha Morton,Alpha
+64833850,475507,153021,Lauren Ridloff,Connie
+64833853,475508,153021,Nadia Hilker,Magna
+64833856,267661,153021,Ryan Hurst,Beta
+67155872,557219,153021,Paola Lázaro,Juanita ‘Princess’ Sanchez
+67158383,8687552,153021,Angel Theory,Kelly
+67158384,498936,153021,Cassady McClincy Zhang,Lydia
+68749094,8069126,153021,Cailey Fleming,Judith Grimes
+68981396,317218,153021,Josh Hamilton,Lance Hornsby
+68981400,464658,153021,Margot Bingham,Max Mercer
+68981401,516072,153021,Michael James Shaw,Michael Mercer
+63956123,254928,74995,Carl Sagan,Himself (show host)
+63956125,336747,74995,Ann Druyan,Writer
+64532126,613347,188401,J.G. Quintel,Mordecai / High Five Ghost
+64532127,312383,188401,William Salyers,Rigby
+64532128,248340,188401,Mark Hamill,Skips
+64532130,8049371,188401,Janie Haddad,Margaret
+64532131,462596,188401,Roger Craig Smith,Thomas
+64532132,613349,188401,Minty Lewis,Eileen
+64532133,266557,188401,Linda Cardellini,C. J.
+64532134,333502,188401,Courtenay Taylor,Starla
+65771064,462596,188401,Roger Craig Smith,Thomas
+68852206,613348,188401,Sam Marin,Benson
+68852226,613348,188401,Sam Marin,Muscle Man
+68852233,613348,188401,Sam Marin,Pops
+69365062,613347,188401,J.G. Quintel,High-Five Ghost
+64667397,383213,330374,Keir Gilchrist,Sam Gardner
+64667398,279119,330374,Jenna Boyd,Paige Hardaway
+64667399,576742,330374,Jack Haven,Casey Gardner
+64667400,248261,330374,Michael Rapaport,Doug Gardner
+64667401,296968,330374,Jennifer Jason Leigh,Elsa Gardner
+64667402,506456,330374,Amy Okuda,Julia Sasaki
+64667403,457854,330374,Nik Dodani,Zahid
+64667404,503620,330374,Raúl Castillo,Nick
+64667405,497711,330374,Graham Rogers,Evan Chapin
+64667406,577900,330374,Christina Offley,Sharice
+64667407,332272,330374,Fivel Stewart,Izzie Taylor
+64667408,486174,330374,Ariela Barer,Bailey Bennet 
+64667409,295871,330374,Graham Phillips,Nate
+64667411,8065825,330374,Nina Ameri,Luisa
+64667413,366376,330374,Michael Rady,Miles
+64667415,327303,330374,Casey Wilson,Ms. Whitaker
+64667416,252858,330374,Kevin Daniels,Coach Briggs
+64667418,276115,330374,Angel Laketa Moore,Megan
+64667419,7965053,330374,Kimmy Gatewood,Coach Crowley
+65429867,417675,356317,Alistair Petrie,Mr. Groff
+65436269,7945571,356317,Sami Outalbali,Rahim Harrak
+65440750,348325,356317,Samantha Spiro,Maureen Groff
+65441269,8161034,356317,Chaneil Kular,Anwar Bakshi
+65441270,7885719,356317,Simone Ashley,Olivia Hanan
+65448100,299884,356317,Anne-Marie Duff,Erin Wiley
+65667987,472742,356317,Jemima Kirke,Hope Haddon
+65667988,8180017,356317,Dua Saleh,Cal
+67766752,469889,356317,Asa Butterfield,Otis Milburn
+67766755,7895747,356317,Emma Mackey,Maeve Wiley
+67766760,7895755,356317,Ncuti Gatwa,Eric Effiong
+67766765,7895757,356317,Aimee Lou Wood,Aimee Gibbs
+67766769,558685,356317,Connor Swindells,Adam Groff
+67766772,321150,356317,Gillian Anderson,Jean Milburn
+67766777,558686,356317,Kedar Williams-Stirling,Jackson Marchetti
+67766780,558689,356317,Tanya Reynolds,Lily Iglehart
+67766781,255313,356317,Patricia Allison,Ola Nyman
+67766812,8797147,356317,George Robinson,Isaac Goodwin
+67766814,8161033,356317,Chinenye Ezeudu,Vivienne Odusanya
+67766815,7895764,356317,Mimi Keene,Ruby Matthews
+67831603,247841,356317,Lino Facioli,Dex Thompson
+65246904,328078,289590,Rami Malek,Elliot Alderson
+65246906,254388,289590,Christian Slater,Mr. Robot
+65246907,452967,289590,Portia Doubleday,Angela Moss
+65246909,542845,289590,Carly Chaikin,Darlene
+65246912,544407,289590,Stephanie Corneliussen,Joanna Wellick
+65246914,469911,289590,Grace Gummer,"Dominique ""Dom"" Dipierro"
+65246918,363398,289590,Michael Cristofer,Phillip Price
+65246921,280092,289590,Craig Robinson,Ray
+65246924,626146,289590,Martin Wallström,Tyrell Wellick
+65246927,255793,289590,Bobby Cannavale,Irving
+65246929,394868,289590,BD Wong,Whiterose / Andrew Zhang
+65246933,7915036,289590,Joey Bada$$,Leon
+65613354,503452,289590,Sam Esmail,
+63473683,300155,355567,Erin Moriarty,Annie January / Starlight
+63473687,499223,355567,Dominique McElligott,Queen Maeve
+63473696,444062,355567,Jessie T. Usher,A-Train
+63473703,396433,355567,Chace Crawford,The Deep
+63473708,508911,355567,Nathan Mitchell,Black Noir
+63473717,492679,355567,Tomer Capone,Frenchie
+63473728,280976,355567,Laz Alonso,Marvin 'Mother's Milk'
+63473735,554367,355567,Karen Fukuhara,Kimiko
+63473742,388490,355567,Antony Starr,Homelander
+63473750,503175,355567,Jack Quaid,Hughie Campbell
+63473761,311656,355567,Karl Urban,Billy Butcher 
+65611362,317288,355567,Aya Cash,Stormfront
+65650853,394888,355567,Colby Minifie,Ashley Barrett
+65698914,502789,355567,Claudia Doumit,Victoria Neuman
+66390202,335538,355567,Jensen Ackles,Soldier Boy
+68983189,300206,355567,Elisabeth Shue,Madelyn Stillwell
+69025330,671012,355567,Cameron Crovetti,Ryan
+69025332,331733,355567,Shantel VanSanten,Becca Butcher
+69033441,272968,355567,Giancarlo Esposito,Stan Edgar
+69170801,267366,355567,Jeffrey Dean Morgan,Joe Kessler
+69170802,597466,355567,Susan Heyward,Sister Sage
+69170803,367197,355567,Valorie Curry,Firecracker
+69266239,399436,355567,Matthew Edison,Cameron Coleman
+69281998,8646018,355567,Neal H Moritz,
+64341890,327406,368207,Steven Yeun,Mark Grayson / Invincible
+64341897,271472,368207,J.K. Simmons,Nolan Grayson / Omni-Man
+65512054,286297,368207,Sandra Oh,Debbie Grayson
+66024885,492843,368207,Zazie Beetz,Amber Bennett
+66024886,248314,368207,Walton Goggins, Cecil Stedman
+66024887,303461,368207,Gillian Jacobs,Samantha Eve Wilkins / Atom Eve
+66043783,327308,368207,Jason Mantzoukas,Rex Sloan / Rex Splode
+66043789,269000,368207,Chris Diamantopoulos,Donald Ferguson
+66043790,283158,368207,Andrew Rannells,William Clockwell
+66043791,268766,368207,Zachary Quinto,Robot
+66043793,297537,368207,Melise,Kate Cha / Dupli-Kate
+68999963,475503,368207,Ross Marquand,The Immortal
+68999965,290958,368207,Grey DeLisle,Monster Girl
+69043513,290958,368207,Grey DeLisle,Shrinking Rae
+69043522,269690,368207,Sterling K. Brown,Angstrom Levy
+69043523,296972,368207,Seth Rogen,Allen the Alien
+69300114,275750,368207,Aaron Paul,Scott Duvall / Powerplex
+69300117,474588,368207,Christian Convery,Oliver Grayson / Kid Omni-Man
+69300119,619156,368207,Simu Liu,Paul Cha / Multi-Paul
+69490233,279092,368207,Cliff Curtis,Paul
+69490234,285161,368207,Ben Schwartz,Shapesmith
+69490237,248340,368207,Mark Hamill,Arthur Rosenbaum
+69490238,267366,368207,Jeffrey Dean Morgan,Conquest
+69490239,329929,368207,Zoey Deutch,Tech Jacket
+69491471,394118,368207,Lee Pace,Thragg
+69494193,262444,368207,Peter Cullen,Thaedus
+64971794,252092,70327,Nicholas Brendon,Xander Harris
+64971800,252093,70327,Charisma Carpenter,Cordelia Chase
+64971806,252094,70327,Michelle Trachtenberg,Dawn Summers
+64971816,252095,70327,Emma Caulfield Ford,Anya Jenkins
+64971821,252096,70327,Marc Blucas,Riley Finn
+64971827,252097,70327,Sarah Michelle Gellar,Buffy Summers
+64971833,252098,70327,David Boreanaz,Angel
+64971838,252099,70327,Seth Green,Oz
+64971844,252100,70327,James Marsters,Spike
+64971852,252101,70327,Alyson Hannigan,Willow Rosenberg
+64971857,7892953,70327,Anthony Head,Rupert Giles
+64971860,252103,70327,Amber Benson,Tara Maclay
+64971865,252104,70327,Juliet Landau,Drusilla
+64971870,248137,70327,Eliza Dushku,Faith
+64971875,252105,70327,Kristine Sutherland,Joyce Summers
+64971880,252106,70327,Danny Strong,Jonathan Levinson
+64971885,252107,70327,Clare Kramer,Glory
+64971890,252108,70327,Harry Groener,Mayor Richard Wilkins
+64971893,252109,70327,Tom Lenk,Andrew Wells
+64971897,252110,70327,Mercedes McNab,Harmony Kendall
+64971901,252111,70327,Mark Metcalf,The Master
+64971906,370985,70327,D.B. Woodside,Robin Wood
+64971911,252113,70327,Armin Shimerman,Snyder
+64971915,252114,70327,Adam Busch,Warren Mears
+66022802,327406,399838,Steven Yeun,Danny Cho
+66022803,477144,399838,Ali Wong,Amy Lau
+68895138,9086487,399838,Joseph Lee,George Nakai
+68895140,8191231,399838,Young Mazino,Paul Cho
+68895181,651518,399838,David Choe,Isaac Cho
+68895191,325739,399838,Patti Yasutake,Fumi Nakai
+69249859,311003,399838,Oscar Isaac,Josh Martin
+69249860,310962,399838,Carey Mulligan,Lindsay Crane-Martin
+69249862,533850,399838,Charles Melton,Austin Davis
+69249864,459714,399838,Cailee Spaeny,Ashley Miller 
+69383249,728634,399838,Song Kang-ho,
+64738273,262510,72218,Annette O'Toole,Martha Kent
+64738277,296749,72218,Kristin Kreuk,Lana Lang
+64738284,7932972,72218,Sam Jones,Pete Ross
+64738289,311831,72218,Allison Mack,Chloe Sullivan
+64738296,284415,72218,John Schneider,Jonathan Kent
+64738301,317894,72218,Michael Rosenbaum,Lex Luthor
+64738306,335538,72218,Jensen Ackles,Jason Teague
+64738309,335539,72218,Tom Welling,Clark Kent
+64738313,273549,72218,John Glover,Lionel Luthor
+64738317,286002,72218,Eric Johnson,Whitney Fordman
+64738324,335540,72218,Erica Durance,Lois Lane
+64738328,331690,72218,Aaron Ashmore,Jimmy Olsen
+64738334,335541,72218,Laura Vandervoort,Kara
+64738342,335542,72218,Cassidy Freeman,Tess Mercer
+64738348,252968,72218,Justin Hartley,Oliver Queen
+64738353,362835,72218,Sam Witwer,Davis Bloome
+64738358,330790,72218,Callum Blue,Zod
+64098122,481275,270408,Gary Lewis,Colum MacKenzie
+64098125,331158,270408,Sam Heughan,Jamie Fraser
+64098129,465725,270408,Caitríona Balfe,Claire Randall
+64098132,312563,270408,Graham McTavish,Dougal MacKenzie
+64098135,535918,270408,Lotte Verbeek,Geillis Duncan
+64098137,247994,270408,Tobias Menzies,Frank Randall
+64098141,322663,270408,Annette Badland,Glenna Fitzgibbons
+64098146,7994128,270408,Nell Hudson,Laoghaire MacKenzie
+64098147,599179,270408,Duncan Lacroix,Murtagh Fraser
+64098150,7987470,270408,Grant O'Rourke,Rupert MacKenzie
+64098152,326479,270408,Stephen Walters,Angus Mhor
+64098155,599181,270408,Claire Sermonne,Louise de Rohan
+64098158,553036,270408,Andrew Gower,Charles Stuart
+64098161,271441,270408,Rosie Day,Mary Hawkins
+64098164,7994130,270408,Lionel Lingelser,King Louis XV
+64098167,484216,270408,Stanley Weber,Le Comte St Germain
+64098170,490675,270408,Richard Rankin,Roger Wakefield
+64098173,589077,270408,Sophie Skelton,Brianna Randall
+64098176,297420,270408,Romann Berrux,Fergus
+64098179,599182,270408,César Domboy,Fergus Fraser
+64098182,417258,270408,John Bell,Ian Fraser Murray
+64098185,455250,270408,Laura Donnelly,Jenny Fraser Murray
+64098188,452043,270408,Steven Cree,Ian Murray
+64098191,397766,270408,Maria Doyle Kennedy,Jocasta Cameron
+64098194,453684,270408,Ed Speleers,Stephen Bonnet
+64098198,400246,270408,David Berry,Lord John Grey
+65442362,247994,270408,Tobias Menzies,Jack Randall
+68933142,7920889,270408,Lauren Lyle,Marsali MacKimmie
+63737023,655702,321239,Max Minghella,Nick Blaine
+63737025,454090,321239,Joseph Fiennes,Commander Fred Waterford
+63737028,503619,321239,O-T Fagbenle,Luke Bankole
+63737031,312702,321239,Ann Dowd,Aunt Lydia
+63737033,311051,321239,Elisabeth Moss,June Osborne / Offred
+63737037,384680,321239,Alexis Bledel,Emily / Ofglen / Ofsteven
+63737040,327254,321239,Yvonne Strahovski,Serena Joy Waterford
+63737043,324398,321239,Samira Wiley,Moira
+63737046,471449,321239,Madeline Brewer,Janine / Ofwarren / Ofdaniel
+63737049,7942325,321239,Nina Kiri,Alma / Ofrobert
+63737053,557482,321239,Jenessa Grant,Dolores / Ofsamuel
+63737056,359604,321239,Amanda Brugel,Rita / Martha
+63737059,252209,321239,Clea DuVall,Sylvia
+63737062,274361,321239,Bradley Whitford,Commander Lawrence
+66179586,7933614,401003,Harold Perrineau,Boyd Stevens
+66188103,252163,401003,Eion Bailey,Jim Matthews
+68635341,7960373,401003,Catalina Sandino Moreno,Tabitha Matthews
+68635342,658497,401003,Hannah Cheramy,Julie Matthews
+68635343,643998,401003,Ricky He,Kenny
+68635344,8230121,401003,Chloe Van Landschoot,Kristi Miller
+68635345,271679,401003,Shaun Majumder,Father Khatri
+68635346,8011071,401003,Corteon Moore,Ellis
+68635347,9089101,401003,Pegah Ghafoori,Fatima
+68635348,346926,401003,David Alpay,Jade
+68635349,596114,401003,Elizabeth Saunders,Donna
+68635350,9089102,401003,Avery Konrad,Sara Myers
+68671942,261364,401003,Scott McCord,Victor
+68671943,9095157,401003,Elizabeth Moy,Tian Chen Liu
+68779191,248008,401003,Jack Bender,
+68779192,300747,401003,Josh Appelbaum,
+68779193,7915443,401003,André Nemec,
+68779194,330604,401003,Jeff Pinkner,
+68779195,353795,401003,Scott Rosenberg,
+68779196,280102,401003,Joe Russo,
+68779197,280101,401003,Anthony Russo,
+68812735,9103538,401003,Simon Webster,Ethan Matthews
+68897652,8748300,401003,A.J. Simmons,Randall
+68897653,281669,401003,Angela Moore,Bakta
+68897654,344147,401003,Deborah Grover,Tillie
+68897655,603915,401003,Kaelen Ohm,Marielle
+68897656,9109145,401003,Nathan D. Simmons,Elgin
+69240458,295998,401003,Robert Joy,Henry
+69241067,9026727,401003,Samantha Brown,Acosta
+69495717,8522496,401003,Douglas E Hughes,
+69495719,9154090,401003,Jamie McGuire,Smiley
+64671430,280201,287247,Eugene Levy,Johnny Rose
+64671434,254127,287247,Catherine O'Hara,Moira Rose
+64671439,555245,287247,Annie Murphy,Alexis Rose
+64671443,375407,287247,Dan Levy,David Rose
+64671447,304357,287247,Emily Hampshire,Stevie Budd
+64671450,253733,287247,Chris Elliott,Roland Schitt
+64671454,281841,287247,Jennifer Robertson,Jocelyn Schitt
+64671457,379998,287247,Tim Rozon,Mutt Schitt
+64671461,8066358,287247,Sarah Levy,Twyla Sands
+64671463,330915,287247,Dustin Milligan,Ted Mullens
+64671469,344192,287247,Karen Robinson,Ronnie Lee
+64671472,261393,287247,Noah Reid,Patrick Brewer
+68681570,295941,287247,John Hemphill,Bob Currie
+69392277,8103331,466852,Taylor Ortega,Morgan
+69392278,248053,466852,Laurie Metcalf,Linda
+69392279,254105,466852,Elizabeth Perkins,Annette
+69392280,9140015,466852,Jack Innanen,Max
+69392281,468406,466852,Boran Kuzum,Yusuf
+69392282,8101674,466852,Abby Quinn,Natalie
+69392283,375407,466852,Dan Levy,Reverend Nicky
+65543590,292098,383203,Jason Sudeikis,Ted Lasso
+65588009,283520,383203,Hannah Waddingham,Rebecca Welton
+65588011,445161,383203,Juno Temple,Keeley Jones
+65588013,308484,383203,Jeremy Swift,Leslie Higgins
+65588014,471076,383203,Phil Dunster,Jamie Tartt
+65588015,460656,383203,Brett Goldstein,Roy Kent
+65588016,396943,383203,Brendan Hunt,Coach Beard
+65588017,453477,383203,Nick Mohammed,Nathan Shelley
+65674552,8175855,383203,Toheeb Jimoh,Sam Obisanya
+65674555,8175856,383203,Kola Bokinni,Isaac McAdoo
+65674580,8178286,383203,Cristo Fernández,Dani Rojas
+65999882,529446,383203,Sarah Niles,Dr. Sharon Fieldstone
+65689124,262126,390430,Murray Bartlett,Armond
+65689125,286257,390430,Connie Britton,Nicole Mossbacher
+65689126,306233,390430,Jennifer Coolidge,Tanya McQuoid
+65689127,308150,390430,Alexandra Daddario,Rachel Patton
+65689128,8101542,390430,Fred Hechinger,Quinn Mossbacher
+65689129,472752,390430,Jake Lacy,Shane Patton
+65689130,598915,390430,Brittany O'Grady,Paula
+65689131,654915,390430,Natasha Rothwell,Belinda
+65689132,304835,390430,Sydney Sweeney,Olivia Mossbacher
+65689133,450538,390430,Steve Zahn,Mark Mossbacher
+67161447,8088870,390430,Kekoa Kekumano,Kai
+67165249,459805,390430,Lukas Gage,Dillon
+67165255,266949,390430,Molly Shannon,Kitty Patton
+67759842,325880,390430,Jolene Purdy,Lani
+68604465,321267,390430,Michael Imperioli,Dominic Di Grasso
+68606997,289995,390430,Aubrey Plaza,Harper Spiller
+68613242,470442,390430,Adam DiMarco,Albie Di Grasso
+68613244,503547,390430,Haley Lu Richardson,Portia
+68613247,318341,390430,Tom Hollander,Quentin
+68613249,320565,390430,F. Murray Abraham,Bert Di Grasso
+68630914,311169,390430,Theo James,Cameron Babcock
+68630915,394910,390430,Meghann Fahy,Daphne Babcock
+68630916,637642,390430,Will Sharpe,Ethan Spiller
+68789966,533625,390430,Sabrina Impacciatore,Valentina
+68789968,7902520,390430,Beatrice Grannò,Mia
+68794416,545513,390430,Simona Tabasco,Lucia
+68794418,275561,390430,Jon Gries,Greg Hunt
+68794429,9102320,390430,Leo Woodall,Jack
+68821422,9104037,390430,Eleonora Romandini  ,Isabella
+69098992,8010330,390430,Lalisa Manobal,Mook
+69098993,254263,390430,Scott Glenn,Jim Hollinger
+69098995,483025,390430,Julian Kostov,Alexei
+69098999,505342,390430,Patrick Schwarzenegger,Saxton Ratliff
+69099000,575253,390430,Carrie Coon,Laurie
+69099001,308104,390430,Parker Posey,Victoria Ratliff
+69099003,7895757,390430,Aimee Lou Wood,Chelsea
+69099004,269484,390430,Michelle Monaghan,Jaclyn
+69099005,346159,390430,Jason Isaacs,Timothy Ratliff
+69099006,306869,390430,Leslie Bibb,Kate
+69280889,248314,390430,Walton Goggins,Rick Hatchett
+69280900,8465536,390430,Sarah Catherine Hook,Piper Ratliff
+69280904,9127193,390430,Sam Nivola,Lochlan Ratliff
+69280909,7870894,390430,Patravadi Mejudhon,Sritala
+69280913,7864409,390430,Dom Haetrakul,Pornchai
+69280955,659809,390430,Tayme Thapthimthong,Gaitok
+69280957,9135147,390430,Nicholas Duvernay,Zion Lindsey
+69280958,326458,390430,Mike White,
+69286580,326458,390430,Mike White,
+69286581,326458,390430,Mike White,
+69299278,508653,390430,Charlotte Le Bon,Chloe
+69299279,488789,390430,Christian Friedel,Fabian
+69299280,9107664,390430,Shalini Peiris,Amrita
+69299281,517280,390430,Morgana O'Reilly,Pam
+69299381,605746,390430,Arnas Fedaravičius,Valentin
+68640357,533968,403092,Kate Box,Dulcie Collins
+68640358,8066120,403092,Jada Alberts,- please delete -
+68941336,383295,403092,Madeleine Sami,Eddie Redcliffe
+68941339,9102753,403092,Nina Oyama,Abby Matsuda
+69473695,8117295,403092,Alicia Gardiner,Cath York
+69473696,7947608,403092,Tom Ballard,Sven Alderman
+69473697,392109,403092,Luke Hemsworth,Jason Wade
+69473698,9142444,403092,Susie Youssef,Aleyna Rahme
+69473699,324604,403092,Steve Bisley,
+64923181,321116,305288,Winona Ryder,Joyce Byers
+64923187,254097,305288,Matthew Modine,Dr. Martin Brenner
+64923190,269701,305288,David Harbour,Jim Hopper
+64923193,330194,305288,Millie Bobby Brown,Eleven / Jane
+64923196,546375,305288,Gaten Matarazzo,Dustin Henderson
+64923199,538548,305288,Caleb McLaughlin,Lucas Sinclair
+64923202,521543,305288,Finn Wolfhard,Mike Wheeler
+64923205,546376,305288,Natalia Dyer,Nancy Wheeler
+64923208,546377,305288,Noah Schnapp,Will Byers
+64923210,546378,305288,Charlie Heaton,Jonathan Byers
+64923214,546379,305288,Dacre Montgomery,Billy Hargrove
+64923217,248367,305288,Sean Astin,Bob Newby
+64923220,538549,305288,Sadie Sink,Max Mayfield
+64923224,546380,305288,Joe Keery,Steve Harrington
+64923227,307561,305288,Maya Hawke,Robin Buckley
+64923231,8094915,305288,Priah Ferguson,Erica Sinclair
+68699182,315970,305288,Cara Buono,Karen Wheeler
+68699183,473023,305288,Brett Gelman,Murray Bauman
+68699184,579634,305288,Eduardo Franco,Argyle
+68699185,482258,305288,Joseph Quinn,Eddie Munson
+69418976,454089,305288,Jamie Campbell Bower,Henry Creel
+69437922,9109900,305288,Nell Fisher,Holly Wheeler
+69437923,253805,305288,Paul Reiser,Sam Owens
+69437924,291152,305288,Linda Hamilton,Dr. Kay
+69437926,9149351,305288,Jake Connelly,Derek Turnbow
+63794328,8166478,80348,Zachary Levi,Chuck Bartowski
+63794332,283966,80348,Adam Baldwin,John Casey
+63794335,327254,80348,Yvonne Strahovski,Sarah Walker
+63794340,7950521,80348,Joshua Gomez,Morgan Grimes
+63794344,267646,80348,Sarah Lancaster,Ellie Woodcomb
+63794347,267248,80348,Mark Christopher Lawrence,Big Mike
+63794350,332285,80348,Scott Krinsky,Jeff Barnes
+63794352,272038,80348,Ryan McPartlin,Devon Woodcomb
+63794355,263309,80348,Vik Sahay,Lester Patel
+63794357,252908,80348,Julia Ling,Anna Wu
+63794360,252425,80348,Bonita Friedericy,Diane Beckman
+63794363,324393,80348,Matt Bomer,Bryce Larkin
+63794366,324310,80348,Brandon Routh,Daniel Shaw
+63794368,291152,80348,Linda Hamilton,Mary Bartowski
+68737303,505342,417909,Patrick Schwarzenegger,Luke Riordan
+68743088,393517,417909,Lizze Broadway,Emma Meyer
+68743089,461994,417909,Jaz Sinclair,Marie Moreau
+68743090,497607,417909,Maddie Phillips,Cate Dunlap
+68743092,460004,417909,Shelley Conn,Indira Shetty
+68743093,461996,417909,Chance Perdomo,Andre Anderson
+68986107,9115062,417909,Asa Germann,Sam Riordan
+69001402,330402,417909,Sean Patrick Thomas,Polarity
+69001406,9116159,417909,Derek Luh,Jordan Li (Boy)
+69007920,9100403,417909,London Thor,Jordan Li (Girl)
+69030992,497443,417909,Alexander Calvert,Rufus McCurdy
+69281996,8646018,417909,Neal H Moritz,
+69408103,270650,417909,Hamish Linklater,Dean Cipher
+68638666,248314,416744,Walton Goggins,The Ghoul / Cooper Howard
+68678162,599610,416744,Ella Purnell,Lucy MacLean
+68822511,8429774,416744,Aaron Moten,Maximus
+69056685,7938181,416744,Moises Arias,Norm MacLean
+69134379,8084730,416744,Dave Register,Chet
+69134380,9125951,416744,Annabel O'Hagan,Stephanie Harper
+69134381,287253,416744,Leslie Uggams,Betty Pearson
+69134382,296928,416744,Zach Cherry,Woody Thomas
+69134383,8287921,416744,Rodrigo Luzzi,Reg McPhee
+69134391,484302,416744,Johnny Pemberton,Thaddeus
+69469625,308801,416744,Kyle MacLachlan,Hank MacLean
+69469628,7963001,416744,Frances Turner,Barb Howard
+69469630,312590,416744,Sarita Choudhury,Lee Moldaver
+69469645,363398,416744,Michael Cristofer,Elder Cleric Quintus
+69469675,327279,416744,Justin Theroux,Robert House
+69470072,8159616,416744,Rachel Marsh,Claudia
+69470073,476261,416744,Adam Faison,Ronnie McCurtry
+69470074,9114975,416744,Rajat Suresh,Clark
+69470075,9114974,416744,Jeremy Levick,Pete
+69470348,348807,416744,Martha Kelly,Representative Welch
+69470351,275561,416744,Jon Gries,Biff
+69470388,8084455,416744,Leer Leary,Davey
+63774360,310297,270633,Matthew McConaughey,Rust Cohle
+63774363,253775,270633,Woody Harrelson,Marty Hart
+63774369,358774,270633,Tory Kittles,Thomas Papania
+63774375,269484,270633,Michelle Monaghan,Maggie Hart
+63774377,327225,270633,Rachel McAdams,Ani Bezzerides
+63774379,310392,270633,Colin Farrell,Ray Velcoro
+63774381,311372,270633,Taylor Kitsch,Paul Woodrugh
+63774383,300290,270633,Vince Vaughn,Frank Semyon
+63774385,403730,270633,Kelly Reilly,Jordan Semyon
+63774387,7884041,270633,Mahershala Ali,Wayne Hays
+63774389,440031,270633,Carmen Ejogo,Amelia Reardon
+63774391,407375,270633,Stephen Dorff,Roland West
+63774393,346751,270633,Scoot McNairy,Tom Purcell
+63774395,484564,270633,Ray Fisher,Henry Hays
+65563946,326796,270633,Michael Potts,Maynard Gilbough
+69060116,253451,270633,Jodie Foster,Liz Danvers
+69060117,9109336,270633,Kali Reis,Evangeline Navarro
+69072330,308150,270633,Alexandra Daddario,Lisa Tragnetti
+69097627,667679,270633,Finn Bennett,Peter Prior
+69097628,252311,270633,John Hawkes,Hank Prior
+69097629,9123359,270633,Isabella LaBlanc,Leah Danvers
+69097632,8387498,270633,Joel Montgrand,Eddie Qavvik
+69097633,260511,270633,Fiona Shaw,Rose Aguineau
+69097634,8185199,270633,Anna Lambe,Kayla Prior
+69097635,348728,270633,Christopher Eccleston,Ted Connelly
+64860761,295966,259063,Hugh Dancy,Will Graham
+64860764,282895,259063,Laurence Fishburne,Agent Jack Crawford
+64860766,321150,259063,Gillian Anderson,Dr. Bedelia Du Maurier
+64860768,446651,259063,Mads Mikkelsen,Dr. Hannibal Lecter
+64860770,341444,259063,Caroline Dhavernas,Dr. Alana Bloom
+64860772,295275,259063,Scott Thompson,Jimmy Price
+64860774,269568,259063,Hettienne Park,Beverly Katz
+64860776,278884,259063,Aaron Abrams,Brian Zeller
+64860778,449249,259063,Kacey Rohl,Abigail Hobbs 
+64860780,493581,259063,Lara Jean Chorostecki,Freddie Lounds 
+64860782,493923,259063,Vladimir Jon Cubrt,Garret Jacob Hobbs
+64860783,7866473,259063,Raúl Esparza,Dr. Frederick Chilton
+64860785,294911,259063,Eddie Izzard,Dr. Abel Gideon
+64860787,331153,259063,Anna Chlumsky,Miriam Lass
+64860789,302038,259063,Katharine Isabelle,Margot Verger
+64860790,347966,259063,Michael Pitt,Mason Verger
+64860792,615964,259063,Tao Okamoto,Chiyoh
+64860793,304773,259063,Richard Armitage,Francis Dolarhyde
+63799740,360332,360893,Jared Harris,Valery Legasov
+63799746,378106,360893,Stellan Skarsgård,Boris Shcherbina
+63799751,300426,360893,Emily Watson,Ulana Khomyuk
+63799757,477089,360893,Jessie Buckley,Lyudmila Ignatenko
+63799762,322198,360893,Adrian Rawlins,Nikolai Fomin
+63799766,449517,360893,Con O'Neill,Viktor Bryukhanov
+63799772,503454,360893,Paul Ritter,Anatoly Dyatlov
+63799778,463556,360893,David Dencik,Mikhail Gorbachev
+63799784,594437,360893,Robert Emms,Leonid Toptunov
+63799789,385238,360893,Sam Troughton,Aleksandr Akimov
+63799794,351456,360893,Alex Ferns,Glukhov
+65647912,277850,366924,Alan Ritchson,Jack Reacher
+68373003,269731,366924,Malcolm Goodwin,Oscar Finley
+68373004,307559,366924,Willa Fitzgerald,Roscoe Conklin
+68373005,8005688,366924,Chris Webster,KJ
+68373006,272429,366924,Bruce McGill,Mayor Teale
+68635256,7990590,366924,Maria Sten,Frances Neagley
+69063085,295421,366924,Shaun Sipos,David O'Donnell
+69063088,335795,366924,Serinda Swan,Karla Dixon
+69077024,271609,366924,Domenick Lombardozzi,Gaitano Russo
+69085234,403808,366924,Ferdinand Kingsley,A.M
+69132413,278773,366924,Robert Patrick,Shane Langston
+69311677,252582,366924,Brian Tee,Xavier Quinn
+69311678,280410,366924,Anthony Michael Hall,Zachary Beck
+69311755,484966,366924,Sonya Cassidy, Susan Duffy
+63730376,292578,176941,Benedict Cumberbatch,Sherlock Holmes
+63730378,338867,176941,Martin Freeman,John Watson
+63730380,258611,176941,Rupert Graves,Greg Lestrade
+63730382,300989,176941,Una Stubbs,Mrs. Hudson
+63730384,295574,176941,Andrew Scott,Jim Moriarty
+63730386,486458,176941,Lara Pulver,Irene Adler
+63730388,248021,176941,Mark Gatiss,Mycroft Holmes
+63730389,292060,176941,Lars Mikkelsen,Charles Augustus Magnussen
+63730392,282341,176941,Amanda Abbington,Mary Morstan
+63730395,483005,176941,Louise Brealey,Molly Hooper
+63730397,304821,176941,Toby Jones,Culverton Smith
+63730400,484683,176941,Sian Brooke,Elizabeth
+65245631,317163,328724,Zoe Perry,Mary Cooper
+65245638,8140691,328724,Raegan Revord,Missy Cooper
+65245641,248359,328724,Iain Armitage,Sheldon Cooper
+65245647,248360,328724,Lance Barber,George Cooper
+65245653,248361,328724,Montana Jordan,Georgie Cooper
+65245671,254648,328724,Annie Potts,Connie Tucker
+65441875,248037,328724,Jim Parsons,Narrator
+65933015,318610,328724,Melissa Peterman,Brenda Sparks
+65933016,455281,328724,Matt Hobby,Pastor Jeff
+68604970,253694,328724,Craig T. Nelson,Dale Ballard
+68647819,255012,328724,Ed Begley Jr.,Dr. Grant Linkletter
+68717482,267921,328724,Wendie Malick,President Linda Hagemeyer
+68717490,525287,328724,Wyatt McClure,Billy Sparks
+68717496,273693,328724,Wallace Shawn,Dr. John Sturgis
+68717501,8140694,328724,Ryan Phuong,Tam Nguyen
+68717502,8097893,328724,Doc Farrow,Assistant Coach Wilkins
+68717504,403628,328724,Nancy Linehan Charles,Peg
+68717528,275088,328724,Valerie Mahaffey,Mrs. Victoria MacElroy
+68717529,296590,328724,Brian Stepanek,Mr. Hubert Givens
+68717530,8141545,328724,Danielle Pinnock,Mrs. Evelyn Ingram
+68717531,309301,328724,Rex Linn,Principal Tom Petersen
+68717537,270410,328724,Sarah Baker,Mrs. Sheryl Hutchins
+68717538,336251,328724,Emily Osment,Mandy McAllister
+64245674,8014321,362696,Anya Chalotra,Yennefer of Vengerberg
+64245678,8014322,362696,Freya Allan,Ciri
+64245681,327579,362696,Henry Cavill,Geralt of Rivia
+65417166,631769,362696,Joey Batey,Jaskier
+65417241,501539,362696,MyAnna Buring,Tissaia de Vries
+65417339,555780,362696,Eamon Farren,Cahir
+65417340,292060,362696,Lars Mikkelsen,Stregobor
+65419124,260712,362696,Adam Levy,Mousesack
+68591258,571270,362696,Kim Bodnia,Vesemir
+68592460,9086670,362696,Mimi Ndiweni,Fringilla
+68592461,9086671,362696,Mecia Simson,Francesca
+68592463,9086672,362696,Anna Shaffer,Triss
+68592464,466182,362696,Royce Pierreson,Istredd
+68620269,7872329,362696,Yasen Atour,Coen
+68620270,8206018,362696,Tom Canton,Filavandrel
+69404101,310976,362696,Liam Hemsworth,Geralt of Rivia
+65914245,247850,392256,Pedro Pascal,Joel Miller
+65914246,248016,392256,Bella Ramsey,Ellie Williams
+69340944,476082,392256,Gabriel Luna,Tommy Miller
+69340991,498580,392256,Isabela Merced,Dina
+69340993,8191231,392256,Young Mazino,Jesse
+69344733,360680,392256,Rutina Wesley,Maria Miller
+69354812,271624,392256,Robert John Burke,Seth
+69358683,503877,392256,Danny Ramirez,Manny Alvarez
+64481978,254194,296762,Anthony Hopkins,Robert Ford
+64481981,267668,296762,James Marsden,Teddy Flood
+64481984,514266,296762,Ben Barnes,Logan Delos
+64481987,615952,296762,Ingrid Bolsø Berdal,Armistice
+64481990,309802,296762,Ed Harris,The Man in Black
+64481992,321419,296762,Sidse Babett Knudsen,Theresa Cullen
+64481997,311397,296762,Thandiwe Newton,Maeve Millay
+64482000,252852,296762,Angela Sarafyan,Clementine Pennyfeather
+64482003,293260,296762,Evan Rachel Wood,Dolores Abernathy
+64482005,273450,296762,Jeffrey Wright,Bernard Lowe
+64482010,306837,296762,Rodrigo Santoro,Hector Escaton
+64482012,272411,296762,Louis Herthum,Peter Abernathy
+64482015,279157,296762,Jimmi Simpson,William
+64482017,276160,296762,Shannon Woodward,Elsie Hughes
+64482020,274756,296762,Clifton Collins Jr.,Lawrence
+64482022,392109,296762,Luke Hemsworth,Ashley Stubbs
+64482024,417486,296762,Simon Quarterman,Lee Sizemore
+64482027,332925,296762,Tessa Thompson,Charlotte Hale
+64482030,615953,296762,Talulah Riley,Angela
+64482032,452642,296762,Gustaf Skarsgård,Karl Strand
+64482035,489544,296762,Katja Herbers,Emily
+64482039,473725,296762,Fares Fares,Antoine Costa
+64482042,367569,296762,Hiroyuki Sanada,Musashi
+64482049,546572,296762,Rinko Kikuchi,Akane
+64482053,279566,296762,Zahn McClarnon,Akecheta
+65470370,275750,296762,Aaron Paul,Caleb Nichols
+65470373,307583,296762,Vincent Cassel,Engerraund Serac
+65470375,311339,296762,Lena Waithe,Ash
+65487321,588308,296762,John Gallagher Jr.,"Liam Dempsey, Jr."
+64097152,316117,331980,Jon Bernthal,Frank Castle
+64097153,514263,331980,Jason R. Moore,Curtis Hoyle
+64097154,346701,331980,Deborah Ann Woll,Karen Page
+64097155,514264,331980,Amber Rose Revah,Dinah Madani
+64097156,315725,331980,Ebon Moss-Bachrach,David Lieberman
+64097157,271538,331980,Paul Schulze,William Rawlins
+64097158,514265,331980,Michael Nathanson,Sam Stein
+64097159,278862,331980,Jaime Ray Newman,Sarah Lieberman
+64097160,459092,331980,Daniel Webber,Lewis Walcott
+64097162,514266,331980,Ben Barnes,Billy Russo
+64097163,514267,331980,Giorgia Whigham,Amy Bendix
+64097165,346959,331980,Floriana Lima,Krista Dumont
+64097167,346487,331980,Josh Stewart,John Pilgrim
+63752207,293261,134511,Ed Marinaro,Coach Marty Daniels
+63752210,293262,134511,Darin Brooks,Alex Moran
+63752213,7932972,134511,Sam Jones,Craig Shilo
+63752220,277850,134511,Alan Ritchson,Thad Castle
+63752222,293264,134511,Chris Romano,Sammy Cacciatore
+63752226,293265,134511,Gabrielle Dennis,Denise Roy
+63752230,293266,134511,Page Kennedy,Radon Randell
+63752233,293267,134511,Denise Richards,Debra Simon
+63752238,293268,134511,Frankie Shaw,Mary-Jo Cacciatore
+63752242,293269,134511,James Cade,Harmon Tedesco
+63752246,293270,134511,Omari Newton,Larry Summers
+63752250,293271,134511,Kwasi Songui,Coach Jon Jon Hendrix
+63752253,293272,134511,Rob Ramsay,Donnie Schrab
+64401464,475230,281662,Charlie Cox,Matt Murdock
+64401465,273492,281662,Vincent D'Onofrio,Wilson Fisk
+64401472,267871,281662,Elden Henson,Foggy Nelson
+64401478,310628,281662,Rosario Dawson,Claire Temple
+64401485,396448,281662,Toby Leonard Moore,James Wesley
+64401493,274269,281662,Vondie Curtis-Hall,Ben Urich
+64401504,617920,281662,Ayelet Zurer,Vanessa Marianna
+64401510,315205,281662,Bob Gunton,Leland Owlsley
+64401521,346701,281662,Deborah Ann Woll,Karen Page
+64401537,316117,281662,Jon Bernthal,Frank Castle
+64401541,476574,281662,Élodie Yung,Elektra Natchios
+64401556,257282,281662,Joanne Whalley,Sister Maggie
+64401567,368411,281662,Jay Ali,Ray Nadeem
+64401572,329634,281662,Wilson Bethel,Benjamin 'Dex' Poindexter
+68917803,524303,281662,Stephen Rider,Blake Tower
+69185118,252842,281662,Drew Goddard,
+69185121,271374,281662,Jim Chory,
+69185122,407823,281662,Alan Fine,
+69185123,252842,281662,Drew Goddard,
+69185125,321216,281662,Stan Lee,
+69185126,335577,281662,Jeph Loeb,
+69185127,476199,281662,Joe Quesada,
+69185128,8161547,281662,Dan Buckley,
+69185129,8178168,281662,Allie Goss,
+69185130,8178170,281662,Kris Henigman,
+69185131,8178166,281662,Cindy Holland,
+69185132,252362,281662,Douglas Petrie,
+69185133,7864936,281662,Marco Ramirez,
+69185134,8178171,281662,Karim Zreik,
+69185135,252616,281662,Steven S. DeKnight,
+69185136,8861323,281662,Peter Friedlander,
+69185792,9129249,281662,Kati Johnston,
+69185793,8178169,281662,Alison Engel,
+69185794,255465,281662,Mark Verheiden,
+69185795,8035930,281662,Sonay Hoffman,
+69185796,7874792,281662,Erik Oleson,
+69185799,9129250,281662,Evan Perazzo,
+69185800,7874792,281662,Erik Oleson,
+69290054,317123,281662,Royce Johnson,Sgt. Brett Mahoney
+69290055,316074,281662,Geoffrey Cantor,Mitchell Ellison
+69290057,285483,281662,Peter McRobbie,Father Lantom
+69290058,342129,281662,Amy Rutberg,Marci Stahl
+69290059,404048,281662,Peter Shinkoda,Nobu
+69290060,476582,281662,Rob Morgan,Turk Barrett
+69290061,316143,281662,Daryl Edwards,Detective Hoffman
+69290062,329699,281662,Chris Tardio,Detective Blake
+69290063,7864385,281662,Wai Ching Ho,Madame Gao
+69290064,391120,281662,Nikolai Nikolaeff,Vladimir Ranskahov
+69290065,339842,281662,Susan Varon,Josie
+69290066,341049,281662,Adriane Lenox,Doris
+69290067,316387,281662,Judith Delgado,Elena Cardenas
+69290068,254263,281662,Scott Glenn,Stick
+69290069,288592,281662,Ron Nakahara,Hirochi
+69290070,7925661,281662,Kate Udall,SAC Tammy Hattley
+69290071,8917557,281662,Peter Halpin,Theo Nelson
+69290072,653007,281662,Joe Jones,Felix Manning
+69290073,269074,281662,Michelle Hurd,Samantha Reyes
+69302915,9136915,281662,Sunita Deshpande,Seema Nadeem
+69308133,299434,281662,Danny Johnson,Benjamin Donovan
+66353996,295149,403245,Rebecca Ferguson,Juliette
+67488286,293587,403245,Tim Robbins,Bernard
+67982420,396447,403245,David Oyelowo,Holston
+67982421,310905,403245,Rashida Jones,Allison
+68643039,403783,403245,Harriet Walter,Martha Walker
+68732201,247872,403245,Iain Glen,Dr. Pete Nichols
+68901966,310836,403245,Common,Robert Sims
+68901967,8545718,403245,Avi Nash,Lukas
+68901968,271114,403245,Rick Gomez,Patrick Kennedy
+68901969,535952,403245,Chinaza Uche,Billings
+68941717,333716,403245,Will Patton,Deputy Marnes
+68941718,403808,403245,Ferdinand Kingsley,George Wilkins
+68941719,9111923,403245,Caitlin Zoz,Kathleen Billings
+68945242,304664,403245,Geraldine James,Mayor Ruth Jahns
+68957811,248027,403245,Billy Postlethwaite,Hank
+68957812,507767,403245,Chipo Chung,Sandy
+68957813,358652,403245,Sophie Thompson,Gloria Hildebrandt
+68957814,269819,403245,Shane McRae,Knox
+68957815,8047871,403245,Remmie Milner,Shirley
+69273305,261499,403245,Tanya Moodie,Mary Meadows
+69284054,450538,403245,Steve Zahn,Solo
+69335289,8112392,403245,Alexandria Riley,Camille Sims
+69335291,444232,403245,Clare Perkins,Carla McLain
+69280417,8182184,458043,Carla Sehn,Hanna Ahlander
+69280419,9112875,458043,Kardo Razzazi,Daniel Lindskog
+69280420,503830,458043,Charlie Gustafsson,Anton Lundin
+69280421,607764,458043,Francisco Sobrado,Raffe Herrera
+69280423,7987176,458043,Amalia Holm Bjelke,Rebecka Nordhammar
+69280426,8422261,458043,Frida Argento,Ebba Niemi
+69280429,511215,458043,Agnes Kittelsen,Marion Andersson
+69280433,470009,458043,Jon Øigarden,Jens Wernolf
+69280434,618151,458043,Robin Stegmar,Bosse Lundh
+69280436,530906,458043,Olle Sarri,Fredrik Berg
+69280437,9135095,458043,Samuel Astor,Carl Willner
+69280444,470877,458043,Sofia Ledarp,Lena Halvorsen
+69280446,449837,458043,Moa Gammel,Annika Risberg
+69280451,293386,458043,Pia Johansson,Birgitta Grip
+69280453,514963,458043,Alain Darborg,
+69280454,9135099,458043,Joakim Eliasson,
+69280455,566639,458043,Karin Gidfors,
+69280457,9135100,458043,Brita Lundqvist,
+69280459,9135101,458043,Jimmy Lindgren,
+69280461,302952,458043,Tim King,
+69280463,8963274,458043,Viveca Sten,
+69280465,9135102,458043,Susann Billberg-Rydholm,
+69280468,605741,458043,Henrik Norlén,Harald Halvorsen
+69305812,9111453,458043,Freddie Mosten-Jacob,Amanda Halvorsen
+64711207,274370,371980,Adam Scott,Mark Scout
+65664436,311092,371980,Patricia Arquette,Harmony Cobel / Mrs. Selvig
+65664437,296815,371980,Britt Lower,Helly
+68589208,296928,371980,Zach Cherry,Dylan
+68589209,8024114,371980,Tramell Tillman,Milchick
+68589210,288073,371980,Christopher Walken,Burt
+68589211,441767,371980,John Turturro,Irving
+68589212,303654,371980,Dichen Lachman,Ms. Casey
+68589213,9086309,371980,Jen Tullock,Devon
+65235955,260683,273181,Michael McKean,Chuck McGill
+65235959,281582,273181,Patrick Fabian,Howard Hamlin
+65235964,273507,273181,Rhea Seehorn,Kim Wexler
+65235968,498188,273181,Michael Mando,Nacho Varga
+65235974,290451,273181,Bob Odenkirk,Jimmy McGill
+65235978,293588,273181,Jonathan Banks,Mike Ehrmantraut
+65235984,272968,273181,Giancarlo Esposito,Gustavo Fring
+65478087,579075,273181,Tony Dalton,Lalo Salamanca
+68954787,270259,273181,Vince Gilligan,
+68954788,299486,273181,Peter Gould,
+68955162,8123814,273181,Melissa Bernstein,
+65545879,673344,383275,Lee Jung-jae,Seong Gi-hun (No. 456)
+65545880,668041,383275,Park Hae-soo,Cho Sang-woo (No. 218)
+66032461,455839,383275,Heo Sung-tae,Jang Deok-su (No. 101)
+66032462,490210,383275,Wi Ha-joon,Hwang Jun-ho
+67485943,8748000,383275,Jung Ho-yeon,Kang Sae-byeok (No. 067)
+67501445,8749613,383275,Kim Joo-ryung,Han Mi-nyeo (No. 212)
+67501642,8474736,383275,Oh Yeong-su,Oh Il-nam (No. 001)
+67612401,8773092,383275,Anupam Tripathi,Ali Abdul (No. 199)
+68670321,8085874,383275,Lee Yoo-mi,Ji-young (No. 240)
+69273284,7884080,383275,Jo Yu-ri,Kim Jun-hee (No. 222)
+69273285,728880,383275,Lee Seo-hwan,Jung-bae (No. 390)
+69273287,7934534,383275,Kang Ae-sim,Jang Geum-ja (No. 149)
+69273289,455500,383275,Yang Dong-geun,Park Yong-sik (No. 007)
+69273290,8001848,383275,Park Sung-hoon,Cho Hyun-ju (No. 120)
+69273291,7937828,383275,Lee Jin-uk,Gyeong-seok (No. 246)
+69273292,455543,383275,Kang Ha-neul,Kang Dae-ho (No. 388)
+69273293,7893110,383275,Yim Si-wan,Lee Myung-gi (No. 333)
+69273294,508016,383275,Lee Byung-hun,Hwang In-ho
+69284004,519221,383275,Jeon Seok-ho,Choi U-seok
+69284022,510989,383275,Park Gyu-young,Kang No-eul
+69284023,7931662,383275,T.O.P,"Choi Su-bong / ""Thanos"" (No. 230)"
+69284049,9113944,383275,Roh Jae-won,Nam-gyu (No. 124) 
+69285064,8163955,383275,Chae Gook-hee,Sun-nyeo (No. 044)
+69285066,9089773,383275,Won Ji-an,Se-mi (No. 380)
+69286612,484631,383275,David Lee,Park Min-su (No. 125)
+68780931,8175953,417208,Katie Chang,Maddie
+68780932,296973,417208,Paul Dano,Caspian
+68780933,447335,417208,William Hurt,Stephen Holstrom
+68780935,472753,417208,Maude Apatow,Justine
+68780937,346751,417208,Scoot McNairy,Cody
+68780939,310718,417208,Aaron Eckhart,Cary
+68780940,311115,417208,Taylor Schilling,Renee
+68887751,327331,417208,Rosemarie DeWitt,Ellen
+68887752,269000,417208,Chris Diamantopoulos,Pope
+68887753,315034,417208,Raza Jaffrey,Chanda
+68887754,268546,417208,Daniel Dae Kim,David
+68887755,310440,417208,Ron Livingston,Waxman
+68887756,569643,417208,Krystina Alabado,Hannah / Nicole
+68887757,275406,417208,Kevin Durand,Anssi / Chauffeur / Manager
+68887759,306977,417208,Michael Kelly,CEO
+69033159,508358,417208,Thomasin McKenzie,Mist
+69297385,354295,417208,Heather Lind,Laurie Lowell
+63408664,271014,348545,Natsuki Hanae,Tanjiro Kamado
+63408665,8078653,348545,Akari Kito,Nezuko Kamado
+63408666,300737,348545,Hiro Shimono,Zen`itsu Agatsuma 
+63408667,292644,348545,Yoshitsugu Matsuoka,Inosuke Hashibira 
+63408668,277100,348545,Takahiro Sakurai,Giyuu Tomioka 
+63408677,303142,348545,Hochu Otsuka,Sakonji Urokodaki 
+63408680,282388,348545,Toshihiko Seki,Muzan Kibutsuji
+63408685,7868605,348545,Saori Hayami,Shinobu Kocho
+63408688,7865993,348545,Satoshi Hino,Kyojuro Rengoku
+63408690,300736,348545,Kana Hanazawa,Mitsuri Kanroji
+63408691,277107,348545,Tomokazu Sugita,Gyomei Himejima
+63408692,277079,348545,Kenichi Suzumura,Obanai Iguro
+63408693,295192,348545,Reina Ueda,Kanao Tsuyuri
+63408694,271010,348545,Katsuyuki Konishi,Tengen Uzui
+63408695,289883,348545,Kengo Kawanishi,Muichiro Tokito
+67986541,271007,348545,Tomokazu Seki,Sanemi Shinazugawa
+63696686,322759,85249,Rie Kugimiya,Alphonse Elric
+63696690,7899825,85249,Romi Park,Edward Elric
+63696695,397949,85249,Megumi Takamoto,Winry Rockbell
+63696701,7874486,85249,Shin'ichirou Miki,Roy Mustang
+63696729,303226,85249,Kenta Miyake,Scar
+63696733,322766,85249,Iemasa Kayumi,Father
+63696737,311539,85249,Fumiko Orikasa,Riza Hawkeye
+63696742,7947664,85249,Mai Gotou,May Chang
+63696744,358469,85249,Hidekatsu Shibata,King Bradley
+63696749,292480,85249,Mamoru Miyano,Ling Yao
+63696754,349284,85249,Kenji Utsumi,Louis Armstrong
+63696759,320292,85249,Minami Takayama,Envy
+63696764,371854,85249,Youko Soumi,Olivier Mira Armstrong
+63696769,7878699,85249,Unshou Ishizuka,Van Hohenheim
+63696775,7888165,85249,Shouko Tsuda,Izumi Curtis
+63696781,280705,85249,Keiji Fujiwara,Maes Hughes
+63696787,400984,85249,Kaori Nazuka,Maria Ross
+63696792,280713,85249,Hiroyuki Yoshino,Solf J. Kimblee
+63696796,609514,85249,Masayuki Omoro,Tim Marcoh
+63696801,447189,85249,Yuko Sanpei,Selim Bradley
+63696806,300982,85249,Fumihiko Tachiki,Sloth
+63696810,7864375,85249,Yuichi Nakamura,Greed
+63696823,323012,85249,Tetsu Shiratori,Gluttony
+63696831,300732,85249,Kikuko Inoue,Lust
+63696833,307440,85249,Nana Mizuki,Lan Fan
+63696838,450861,85249,Hideyuki Umezu,Barry the Chopper
+63696842,307464,85249,Yoshino Takamori,Trisha Elric
+63696847,349285,85249,Katsunosuke Hori,Fu
+63696852,7870822,85249,Miyoko  Asou,Pinako Rockbell
+63696857,279183,85249,Yuuji Ueda,Jean Havoc
+63696863,353395,85249,Chika Fujimura,Sheska
+63696868,280697,85249,Kazuki Yao,Yoki
+63696873,280721,85249,Seiji Sasaki,Sig Curtis
+63696878,446823,85249,Kinryuu Arimoto,Dr. Knox
+63696882,280725,85249,Kazuya Nakai,Major Miles
+63696890,7916854,85249,Takashi Hikida,Zampano
+63696895,7935112,85249,Biichi Satou,Heymans Breda
+63696900,314894,85249,Akemi Okamura,Paninya
+64565004,276612,80284,Richard Chamberlain,John Blackthorne
+64565006,461525,80284,Toshirô Mifune,Yoshi Toranaga
+64565009,261719,80284,John Rhys-Davies,Vasco Rodrigues
+64565012,640230,80284,Yoko Shimada,Lady Toda Buntaro - Mariko
+64565015,640231,80284,Frankie Sakai,Kasigi Yabu
+64565019,596177,80284,Alan Badel,Father Dell'Aqua
+64565022,373648,80284,Damien Thomas,Father Martin Alvito
+64565025,294131,80284,Vladek Sheybal,Captain Ferreira
+64565028,640232,80284,Hideo Takamatsu,Lord Buntaro
+64565031,640233,80284,Nobuo Kaneko,Ishido
+64565034,640234,80284,Hiromi Senno,Fujiko
+64565037,258549,80284,George Innes,Johann Vinck
+64565040,261518,80284,Michael Hordern,Friar Domingo
+64565044,8053650,80284,Yuki Meguro,Omi
+68358039,304311,371572,Paddy Considine,Viserys Targaryen
+68358040,467256,371572,Olivia Cooke,Alicent Hightower
+68358041,8057024,371572,Emma D'Arcy,Rhaenyra Targaryen
+68358043,327577,371572,Matt Smith,Daemon Targaryen
+68358045,292095,371572,Steve Toussaint,Corlys Velaryon
+68358046,320777,371572,Eve Best,Rhaenys Velaryon
+68358047,462666,371572,Rhys Ifans,Otto Hightower
+68358048,520548,371572,Sonoya Mizuno,Mysaria
+68358049,728802,371572,Fabien Frankel,Criston Cole
+68766717,543719,371572,Milly Alcock,Rhaenyra Targaryen
+68798433,8157551,371572,Emily Carey,Alicent Hightower
+69168147,312563,371572,Graham McTavish,Harrold Westerling
+69168148,669373,371572,Matthew Needham,Larys Strong
+69168149,247950,371572,Jefferson Hall,Tyland Lannister
+69168150,490097,371572,Harry Collett,Jacaerys Velaryon
+69168151,629591,371572,Tom Glynn-Carney,Aegon II Targaryen
+69168152,8084780,371572,Ewan Mitchell,Aemond Targaryen
+69168153,9096046,371572,Phia Saban,Helaena Targaryen
+69168154,8173379,371572,Bethany Antonia,Baela Targaryen
+69168155,7913737,371572,Kurt Egyiawan,Grand Maester Orwyle
+69168158,645281,371572,Phoebe Campbell,Rhaena Targaryen
+69185806,538169,371572,Ryan J. Condal,
+69185807,247927,371572,George R.R. Martin,
+69185808,538169,371572,Ryan J. Condal,
+69185809,8358145,371572,Vince Gerardis,
+69185810,7931248,371572,Sara Hess,
+69185812,247927,371572,George R.R. Martin,
+69185813,8715849,371572,Pam Fitzgerald,
+69185814,248006,371572,Miguel Sapochnik,
+69185816,594358,371572,Eileen Shim,
+69185817,8500335,371572,Jocelyn Diaz,
+69185818,7995970,371572,Kevin Lau,
+69185820,540355,371572,Alexis Raben,
+69185821,7985587,371572,Ron Schmidt,
+69185823,9129252,371572,Karen Wacker,
+69185824,8123814,371572,Melissa Bernstein,
+69185825,8274856,371572,Kevin De La Noy,
+69185826,7944653,371572,Loni Peristere,
+69185827,247953,371572,Alan Taylor,
+69185828,8274715,371572,Danny Gulliver,
+69185829,9129253,371572,Angus More Gordon,
+68036642,247899,411959,John Bradley,Jack Rooney
+68036643,247883,411959,Liam Cunningham,Thomas Wade
+68036644,273957,411959,Benedict Wong,Da Shi
+68036645,632711,411959,Eiza González,Auggie Salazar
+68036646,8053348,411959,Saamer Usmani,Raj Varma
+68036648,287430,411959,Alex Sharp,Will Downing
+68036649,8029269,411959,Marlo Kelly,Tatiana
+68036650,582438,411959,Jovan Adepo,Saul Durand
+68617946,7971258,411959,Sea Shimooka,Sophon
+68901201,9109290,411959,Jess Hong,Jin Cheng
+69081258,254269,411959,Rosalind Chao,Ye Wenjie 
+69081260,9122107,411959,Zine Tseng,Ye Wenjie (young)
+69081261,247886,411959,Jonathan Pryce,Mike Evans
+69387013,247857,411959,Alfie Allen,
+69419614,8287318,411959,Cixin Liu,based on novel by
+64021765,310918,270915,Paul Anderson,Arthur Shelby Jr.
+64021769,505752,270915,Annabelle Wallis,Grace Burgess
+64021773,292016,270915,Sam Neill,Chester Campbell
+64021775,330069,270915,Iddo Goldberg,Freddie Thorne
+64021778,469909,270915,Cillian Murphy,"Thomas ""Tommy"" Shelby"
+64021781,513452,270915,Joe Cole,John Shelby
+64021784,465911,270915,Sophie Rundle,Ada Shelby Thorne
+64021787,458538,270915,Ned Dennehy,Charlie Strong
+64021790,353622,270915,Charlie Creed-Miles,Billy Kimber
+64021793,7988338,270915,Helen McCrory,Polly Shelby Gray
+64021796,373728,270915,Tom Hardy,Alfie Solomons
+64021799,489115,270915,Finn Cole,Michael Gray
+64021802,247885,270915,Alexander Siddig,Ruben Oliver
+64021808,495229,270915,Noah Taylor,Derby Sabini
+64021811,303288,270915,Aimee-Ffion Edwards,Esme Lee
+64021815,452028,270915,Natasha O'Keeffe,Lizzie Stark
+64021818,247873,270915,Aidan Gillen,Aberama Gold
+64021821,7983479,270915,Harry Kirton,Finn Shelby
+64021824,8172813,270915,Charlie Murphy,Jessie Eden
+64021829,408849,270915,Kate Phillips,Linda Shelby
+64021833,465705,270915,Sam Claflin,Oswald Mosley
+64021835,507223,270915,Anya Taylor-Joy,Gina
+64021838,565670,270915,Jack Rowan,Bonnie Gold
+64021841,7983480,270915,Daryl McCormack, Isaiah
+64021844,7886870,270915,Emmett J. Scanlan,Billy Grade
+64021847,446972,270915,Ian Peck,Curly 
+64021850,304311,270915,Paddy Considine,Father John Hughes
+64021853,361401,270915,Packy Lee,Johnny Dogs
+64400226,311389,284190,Krysten Ritter,Jessica Jones
+64400229,311232,284190,Mike Colter,Luke Cage
+64400233,297153,284190,David Tennant,Kilgrave
+64400237,368213,284190,Rachael Taylor,Trish Walker
+64400242,279670,284190,Carrie-Anne Moss,Jeri Hogarth
+64400245,300154,284190,Wil Traval,Will Simpson
+64400250,300155,284190,Erin Moriarty,Hope Shlottman
+64400254,347106,284190,Eka Darville,Malcolm Ducasse
+64400260,491515,284190,J.R. Ramirez,Oscar Arocho
+64400266,335627,284190,Terry Chen,Pryce Cheng
+64400270,446779,284190,Janet McTeer,Alisa Jones
+64400278,384903,284190,Benjamin Walker,Erik Gelden
+68917806,450561,284190,Leah Gibson,Inez Green
+68917807,312590,284190,Sarita Choudhury,Kith Lyonne
+68917808,486359,284190,Jeremy Bobb,Gregory Salinger
+68917809,484502,284190,Tiffany Mack,Zaya Okonjo
+69212932,270425,284190,Rebecca De Mornay,Dorothy Walker
+63456990,324174,336924,Penn Badgley,Joe Goldberg
+63456994,549392,336924,Elizabeth Lail,Guinevere Beck
+63457000,515008,336924,Shay Mitchell,Peach Salinger
+63457004,296928,336924,Zach Cherry,Ethan Russell
+63457008,7893197,336924,Luca Padovan,Paco
+63457022,380583,336924,Ambyr Childers,Candace Stone
+65422106,567460,336924,Robin Lord Taylor,Will Bettelheim
+65429503,488104,336924,Carmela Zumbado,Delilah Alves
+65429504,489337,336924,Victoria Pedretti,Love Quinn
+65429505,7962932,336924,James Scully,Forty Quinn
+65429506,474051,336924,Jenna Ortega,Ellie Alves
+67984165,302929,336924,Travis Van Winkle,Cary Conrad
+67984166,461993,336924,Tati Gabrielle,Marienne Bellamy
+67984167,331718,336924,Michaela McManus,Natalie Engler
+67984168,327572,336924,Scott Speedman,Matthew Engler 
+67984169,7873414,336924,Shalita Grant,Sherry Conrad
+68005828,620000,336924,Dylan Arnold,Theo Engler
+68005829,352970,336924,Saffron Burrows,Dottie Quinn
+68904441,475038,336924,Charlotte Ritchie,Kate Galvin
+68904442,8143870,336924,Tilly Keeper,Lady Phoebe
+68904446,8057470,336924,Amy-Leigh Hickman,Nadia Farran
+68904451,453684,336924,Ed Speleers,Rhys Montrose
+68904452,459805,336924,Lukas Gage,Adam Pratt
+68985610,9081828,336924,Dario Coates,Connie
+69292899,8008194,458912,Sydney Chandler,Wendy
+69292901,327861,458912,Timothy Olyphant,Kirsh
+69324985,302497,458912,Essie Davis,Dame Sylvia
+69324987,8159287,458912,Samuel Blenkin,Boy Kavalier
+69324988,545258,458912,Adarsh Gourav,Slightly
+69324990,8291044,458912,Kit Young,Tootles
+69324991,308478,458912,Babou Ceesay,Morrow
+69389862,610746,458912,Alex Lawther,Joe Hermit
+69389863,7907046,458912,Jonathan Ajayi,Smee
+69389864,8189551,458912,Erana James,Curly
+69389865,8011407,458912,Lily Newmark,Nibs
+69389866,8275120,458912,Diêm Camille,Siberian
+69389867,281931,458912,Adrian Edmondson,Atom Eins
+69389868,659879,458912,David Rysdahl,Arthur Sylvia
+69389869,537265,458912,Moe Bar-El,Rashidi
+69389870,9053804,458912,Sandra Yi Sencindiver,Yutani
+69392036,393307,458912,Noah Hawley,
+69392038,393307,458912,Noah Hawley,
+69392039,296975,458912,Ridley Scott,
+69392040,7957271,458912,David W. Zucker,
+69392041,7950199,458912,Dana Gonzales,
+69392042,8175127,458912,Joseph E. Iberti,
+69392044,9145278,458912,Clayton Krueger,
+69392045,8099415,458912,Regis Kimble,
+69392046,539103,458912,Maria Melnik,
+69392047,8390072,458912,Chris Lowenstein,
+69392048,9145279,458912,Kristy Reed,
+69392049,8241064,458912,Darin McLeod,
+69391298,7912036,465189,Simon Arblaster,Proculus
+69391318,9145197,465189,Joel Abadal,Helios
+69442380,663839,465189,Ivana Baquero,Messia
+69442381,9101333,465189,Jamaica Vaughan,Hilara
+69442382,581883,465189,Tenika Davis,Achillia
+69442383,297315,465189,Nick E. Tarabay,Ashur
+69442385,312563,465189,Graham McTavish,Korris
+69455656,8845092,465189,Dan Hamill,Celadus
+69455681,7953373,465189,Jordi Webber,Tarchon
+69455682,325435,465189,Jackson Gallagher,Caesar
+69456181,9150479,465189,India Shaw-Smith,Viridia
+69456182,9006784,465189,Leigh Gill,Satyrus
+69456183,8474777,465189,Arlo Gibson,Opiter
+65945034,247874,397060,Gwendoline Christie,Principal Larissa Weems
+67161404,304534,397060,Catherine Zeta-Jones,Morticia Addams
+67161405,7988851,397060,Luis Guzmán,Gomez Addams
+67779853,248095,397060,Riki Lindhome,Dr. Valerie Kinbott
+67779855,270697,397060,Jamie McShane,Sheriff Donovan Galpin
+67779856,7900332,397060,Hunter Doohan,Tyler Galpin
+67779857,630799,397060,Georgie Farmer,Ajax Petropolus
+67779858,7999959,397060,Moosa Mostafa,Eugene Ottinger
+67779859,8191223,397060,Emma Myers,Enid Sinclair
+67779861,7953551,397060,Joy Sunday,Bianca Barclay
+67779862,503880,397060,Percy Hynes White,Xavier Thorpe
+68672741,294327,397060,Christina Ricci,Marilyn Thornhill 
+68718040,474051,397060,Jenna Ortega,Wednesday Addams
+68825519,8060628,397060,Naomi J. Ogawa,Yoko Tanaka
+68832003,7889029,397060,Victor Dorobantu,Thing
+69049043,295282,397060,Fred Armisen,Fester Addams
+69155386,9101044,397060,Isaac Ordonez,Pugsley Addams
+69389458,271595,397060,Steve Buscemi,Barry Dort
+69389459,9144991,397060,Owen Painter,Slurp
+69389460,378938,397060,Billie Piper,Isadora Capri
+69389461,9144992,397060,Luyanda Unati Lewis-Nyawo,Ritchie Santiago
+69389464,9144993,397060,Noah Taylor,Bruno Yuson
+69389467,9144994,397060,Evie Templeton,Agnes DeMille
+69392902,311397,397060,Thandiwe Newton,Dr. Rachael Fairburn
+69402166,321349,397060,Lady Gaga,Rosaline Rotwood
+69418875,274087,397060,Joanna Lumley,Grandmama Hester Frump
+69435411,327300,397060,Eva Green,Ophelia Addams
+65034592,290848,334824,Andreas Pietschmann,The Stranger
+65034596,641620,334824,Paul Lux,Bartosz Tiedemann
+65034597,488223,334824,Tatja Seibt,Jana Nielsen
+65034602,514193,334824,Jördis Triebel,Katharina Nielsen
+65034607,299034,334824,Sandra Borgmann,Elisabeth Doppler 2052
+65034609,8108256,334824,Lea van Acken,Silja
+65534234,538791,334824,Sebastian Hülk,Egon Tiedemann 1953
+65534235,625855,334824,Antje Traue,Agnes Nielsen
+65534239,8169558,334824,Anne Ratte-Polle,Ines Kahnwald 1986
+65534249,8169561,334824,Sebastian Rudolph,Michael Kahnwald
+65534250,8170917,334824,Carlotta von Falkenhayn,Elisabeth Doppler
+65534252,8169564,334824,Ella Lee,Hannah Kahnwald 1986
+65534254,523613,334824,Leopold Hornung,Torben Wöller
+65534255,583041,334824,Christian Steyer,H.G. Tannhaus 1986
+65534258,523692,334824,Lisa Kreuzer,Claudia Tiedemann
+65534265,262991,334824,Peter Schneider,Helge Doppler 1986
+65534266,598720,334824,Cordelia Wege,Greta Doppler
+65555330,520823,334824,Arnd Klawitter,Tannhaus 1953
+65557255,8142189,334824,Gina Stiebitz,Franziska Doppler
+65557721,519877,334824,Walter Kreye,Tronte Nielsen
+65563019,498982,334824,Karoline Eichhorn,Charlotte Doppler
+65563020,463761,334824,Oliver Masucci,Ulrich Nielsen
+65563021,597510,334824,Daan Lennard Liebrenz,Mikkel Nielsen
+65563022,489451,334824,Moritz Jahn,Magnus Nielsen
+65563026,597509,334824,Hermann Beyer,Helge Doppler
+65563027,556245,334824,Maja Schöne,Hannah Kahnwald
+65563030,290847,334824,Dietrich Hollinderbäumer,Adam
+65563032,284185,334824,Peter Benedict,Aleksander Tiedemann
+65563037,290868,334824,Stephan Kampwirth,Peter Doppler
+65563047,505109,334824,Sylvester Groth,Clausen
+65574392,520826,334824,Julika Jenkins,Claudia Tiedemann 1986
+65574395,633835,334824,Christian Pätzold,Egon Tiedemann 1986
+65574401,574056,334824,Mark Waschke,Noah
+65575081,584820,334824,Barbara Nüsse,Eva
+65575789,451750,334824,Max Schimmelpfennig,Noah 1921
+65576638,8169560,334824,Tom Philipp,Helge Doppler 1953
+65577409,530901,334824,Felix Kramer,Tronte Nielsen 1986
+65580970,8723366,334824,Anna Schönberg,Donata Kraus (nurse)
+65581464,593376,334824,Lena Urzendowsky,Ines Kahnwald 1953
+65581466,8172051,334824,Joshio Marlon,Tronte Nielsen 1953
+65581467,562665,334824,Stephanie Amarell,Charlotte Doppler 1986
+65581469,662901,334824,Luise Heyer,Doris Tiedemann
+65586616,558019,334824,Nele Trebs,Katharina Nielsen 1986
+65593630,7892551,334824,Anne Lebinsky,Jana Nielsen 1986
+65597830,290801,334824,Michael Mendl,Bernd Doppler
+65597831,544875,334824,Florian Panzner,Daniel Kahnwald
+65597833,533185,334824,Hans Diehl,Old Unknown
+65597834,7978560,334824,Claude Heinrich,Young Unknown
+65597835,8172116,334824,Rike Sindler,Jana Nielsen 1953
+65597836,8172079,334824,Jakob Diehl,Adult Unknown
+65597837,8169563,334824,Valentin Oppermann,Mads Nielsen
+65597838,8172115,334824,Gwendolyn Göbel,Claudia Tiedemann 1953
+65597839,8171019,334824,Lydia Maria Makrides,Regina Tiedemann 1986
+65597840,451795,334824,Béla Gabor Lenz,Aleksander Tiedemann 1986
+65598695,8167270,334824,Angela Winkler,Ines Kahnwald
+65600603,450158,334824,Deborah Kaufmann,Regina Tiedemann
+65933300,8172085,334824,Ludger Bökelmann,Ulrich Nielsen 1986
+65933315,614815,334824,Nina Kronjäger,Female Stranger
+65933316,481221,334824,Anatole Taubman,Bernd Doppler 1953
+66177311,641621,334824,Lisa Vicari,Martha Nielsen
+66177408,522180,334824,Louis Hofmann,Jonas Kahnwald
+67760635,573157,334824,Winfried Glatzeder,Old Ulrich Nielsen 1987
+69401694,641622,334824,Jantje Friese,
+69401695,641623,334824,Baran bo Odar,
+69401698,8368981,334824,Quirin Berg,
+69401699,8368984,334824,Max Wiedemann,
+69401700,9146258,334824,Justyna Müsch,
+69401701,9146259,334824,Kelly Luegenbiehl,
+69401702,9146260,334824,Amanda Krentzman,
+69401703,9146261,334824,Erik Barmack,
+69401704,641623,334824,Baran bo Odar,
+69401705,641622,334824,Jantje Friese,
+64607381,325628,295829,Rufus Sewell,John Smith
+64607384,346893,295829,Luke Kleintank,Joe Blake
+64607387,283845,295829,Alexa Davalos,Juliana Crain
+64607390,281819,295829,Rupert Evans,Frank Frink
+64607393,248073,295829,DJ Qualls,Ed McCarthy
+64607396,272793,295829,Cary-Hiroyuki Tagawa,Nobusuke Tagomi
+64607399,274839,295829,Joel de la Fuente,Takeshi Kido
+64607402,465869,295829,Bella Heathcote,Nicole Becker
+64607405,285178,295829,Callum Keith Rennie,Gary Connell
+64607408,269043,295829,Sebastian Roché,Martin Heusmann
+64607412,316379,295829,Brennan Brown,Robert Childan
+64607418,272198,295829,Rick Worthy,Lemuel Washington
+64607421,343592,295829,Chelah Horsdal,Helen Smith
+64607426,373739,295829,Jason O'Mara,Wyatt Price
+64607430,269692,295829,Michael Gaston,Mark Sampson
+68614103,7971256,367506,Markella Kavenagh,Elanor “Nori” Brandyfoot
+68614106,8159283,367506,Morfydd Clark,Galadriel
+68754717,317006,367506,Cynthia Addai-Robinson,Queen-Regent Míriel
+68754718,639615,367506,Robert Aramayo,Elrond
+68754719,536735,367506,Owain Arthur,Prince Durin IV
+68754720,8158410,367506,Ismael Cruz Córdova,Arondir
+68754721,346838,367506,Nazanin Boniadi,Bronwyn
+68754723,384903,367506,Benjamin Walker,High King Gil-galad
+68754725,9100050,367506,Sophia Nomvete,Princess Disa
+68754729,9100051,367506,Charlie Vickers,Halbrand
+68754730,260539,367506,Lenny Henry,Sadoc Burrows
+68754731,362369,367506,Maxim Baldry,Isildur
+68754735,397859,367506,Charles Edwards,Lord Celebrimbor
+68771169,308479,367506,Trystan Gravelle,Pharazôn
+68771170,343679,367506,Lloyd Owen,Captain Elendil
+68771172,410662,367506,Dylan Smith,Largo Brandyfoot
+68771283,8002875,367506,Sara Zwangobani,Marigold Brandyfoot
+68771288,8332793,367506,Leon Wadham,Kemen
+68771290,8814151,367506,Ema Horvath,Eärien
+68771302,9101060,367506,Tyroe Muhafidin,Theo
+68771304,9101061,367506,Megan Richards,Poppy Proudfellow
+68786155,247915,367506,Joseph Mawle,Adar
+68806301,417541,367506,Daniel Weyman,The Stranger
+69215240,317986,367506,Ben Daniels,Master Círdan
+69215245,9130665,367506,Amelia Kenworthy,Mirdania
+69220545,307989,367506,Rory Kinnear,Tom Bombadil 
+69315922,454089,367506,Jamie Campbell Bower,
+69315924,259360,367506,Eddie Marsan,
+66178119,538607,384429,Lucas Lynggaard Tønnesen,Krester
+66178120,299675,384429,Miguel Bernardeau,Ángel
+66178121,290848,384429,Andreas Pietschmann,Eyk Larsen
+66178126,8189760,384429,Mathilde Ollivier,Clémence
+66178128,575508,384429,Yann Gael,Jérôme 
+66178134,8345993,384429,Gabby Wong,Yuk Je
+66178688,8024346,384429,José Pimentão,Ramiro
+66178690,8164653,384429,Jonas Bloquet,Lucien
+66178691,501727,384429,Emily Beecham,Maura Franklin
+66178692,8345992,384429,Isabella Wei,Ling Yi
+66178694,543032,384429,Maciej Musiał,Olek
+66178695,8345998,384429,Rosalie Craig,Virginia
+66178696,490016,384429,Aneurin Barnard,Daniel
+66178697,7934564,384429,Clara Rosager,Tove
+66178698,656192,384429,Maria Erwolter,Iben 
+66178699,452271,384429,Alexandre Willaume,Anker
+68812749,9103539,384429,Fflyn Edwards,The Boy (Elliot)
+68828927,263519,384429,Anton Lesser,Henry Singleton
+68839362,539892,384429,Isaak Dentler,Franz 
+69156389,594287,384429,Tino Mewes,Sebastian
+64933964,579086,129261,Andy Whitfield,Spartacus (Season 1)
+64933967,321178,129261,Lucy Lawless,Lucretia
+64933970,260701,129261,John Hannah,Batiatus
+64933974,269223,129261,Erin Cummings,Sura
+64933978,330160,129261,Craig Parker,Glaber
+64933981,579087,129261,Viva Bianca,Ilithiyia
+64933985,296049,129261,Peter Mensah,Oenomaus
+64933989,297315,129261,Nick E. Tarabay,Ashur
+64933993,369756,129261,Manu Bennett,Crixus
+64933998,9095372,129261,Antonio Te Maioha,Barca
+64934003,331174,129261,Jai Courtney,Varro
+64934008,462856,129261,Lesley-Ann Brandt,Naevia (Season 1)
+64934012,507267,129261,Craig Walsh-Wrightson,Solonius
+64934018,318624,129261,Katrina Law,Mira
+64934024,295317,129261,Dustin Clare,Gannicus
+64934029,510306,129261,Liam McIntyre,Spartacus (Season 2)
+64934034,317006,129261,Cynthia Addai-Robinson,Naevia (Season 2)
+64934038,347105,129261,Anna Hutchison,Laeta
+64934042,8096190,129261,Jenna Lind,Kore 
+64934047,409628,129261,Todd Lasance,Caesar
+64934049,440037,129261,Simon Merrells,Crassus
+64934053,332293,129261,Ellen Hollman,Saxa
+64934056,579091,129261,Christian Antidormi,Tiberius
+64934060,579092,129261,Gwendoline Taylor,Sibyl
+64934064,476137,129261,Daniel Feuerriegel,Agron
+64934068,524559,129261,Pana Hema Taylor,Nasir
+64934072,278505,129261,Jaime Murray,Gaia
+64934075,269359,129261,Marisa Ramirez,Mellita
+64934079,437815,129261,Jeffrey Thomas,Titus
+64934084,325600,129261,Stephen Lovatt,Tullius
+64934089,9136038,129261,Gareth Williams,Vettius
+64934094,533965,129261,Tom Hobbs,Seppius
+64934099,579093,129261,Hanna Mangan Lawrence,Seppia
+64934104,392956,129261,Ditch Davey,Nemetes
+64934110,371801,129261,Barry Duffield,Lugo
+64418696,278387,75299,Jamie-Lynn Sigler,Meadow Soprano
+64418698,342176,75299,Robert Iler,"Anthony 'A.J' Soprano, Jr."
+64418700,319852,75299,Tony Sirico,Paulie 'Walnuts' Gualtieri
+64418702,334652,75299,Drea de Matteo,Adriana La Cerva
+64418704,340001,75299,Aida Turturro,Janice Soprano
+64418706,387272,75299,Steven Van Zandt,Silvio Dante
+64418708,341184,75299,Vincent Curatola,Johnny 'Sack' Sacramoni
+64418710,271460,75299,Edie Falco,Carmela Soprano
+64418711,334209,75299,Dominic Chianese,Corrado 'Junior' Soprano
+64418713,310396,75299,Lorraine Bracco,Dr. Jennifer Melfi
+64418715,309092,75299,David Proval,Richie Aprile
+64418716,258614,75299,Joe Pantoliano,Ralph Cifaretto
+64418719,321267,75299,Michael Imperioli,Christopher Moltisanti
+64418722,351036,75299,James Gandolfini,Tony Soprano
+64418725,315938,75299,Robert Funaro,Eugene Pontecorvo
+64418726,317555,75299,Federico Castelluccio,Furio Giunta
+64418728,253404,75299,Steve Schirripa,Bobby 'Bacala' Baccalieri
+64418730,257313,75299,Vincent Pastore,Salvatore 'Big Pussy' Bonpensiero
+64418732,273108,75299,Nancy Marchand,Livia Soprano
+64418734,271595,75299,Steve Buscemi,Tony Blundetto
+64418736,273147,75299,John Ventimiglia,Artie Bucco
+64418738,340102,75299,Frank Vincent,Phil Leotardo
+64418740,293892,75299,Joseph R. Gannascoli,Vito Spatafore
+64418742,316164,75299,Max Casella,Benny Fazio
+64418744,270518,75299,Dan Grimaldi,Patsy Parisi
+65557503,302106,75299,Sharon Angela,Rosalie Aprile
+65557504,313759,75299,Jerry Adler,Hesh Rabkin
+65557505,269785,75299,Arthur J. Nascarella,Carlo Gervasi
+65557506,8039938,75299,Maureen Van Zandt,Gabriella Dante
+65997518,515996,75299,Kathrine Narducci,Charmaine Bucco
+65997520,280524,75299,Peter Bogdanovich,Dr. Elliot Kupferberg
+65997521,340283,75299,Tony Lip,Carmine Lupertazzi
+65997523,257299,75299,Annabella Sciorra,Gloria Trillo
+65997524,530469,75299,Carl Capotorto,Little Paulie Germani
+65997526,267393,75299,Ray Abruzzo,Little Carmine Lupertazzi
+65997528,253855,75299,Robert Loggia,"Michele ""Feech"" La Manna"
+65997533,315970,75299,Cara Buono,Kelli Lombardo Moltisanti
+69126055,7882337,448023,Chuck Lorre,
+69126057,248049,448023,Steven Molaro,
+69126060,7991458,448023,Steve Holland,
+69126062,248361,448023,Montana Jordan,Georgie Cooper
+69126063,336251,448023,Emily Osment,Mandy McAllister
+69161355,336190,448023,Will Sasso,Jim McAllister
+69161356,394976,448023,Rachel Bay Jones,Audrey McAllister
+69226929,563931,448023,Dougie Baldwin,Connor McAllister
+69230890,9131646,448023,Jessie Prez,Ruben
+69422176,317163,448023,Zoe Perry,Mary Cooper
+65444613,327268,372264,Gary Oldman,Jackson Lamb
+68627063,308480,372264,Rosalind Eleazar,Louisa Guy
+68627064,526997,372264,Chris Reilly,Nick Duffy
+68627065,247886,372264,Jonathan Pryce,David Cartwright
+68627251,261537,372264,Kristin Scott Thomas,Diana Taverner
+68627252,290936,372264,Jack Lowden,River Cartwright
+68679226,380189,372264,Saskia Reeves,Catherine Standish
+68679480,8132391,372264,Christopher Chung,Roddy Ho
+68679481,534610,372264,Dustin Demri-Burns,Min Harper
+68836812,303288,372264,Aimee-Ffion Edwards,Shirley Dander
+68836814,496045,372264,Kadiff Kirwan,Marcus Longridge
+69055643,484962,372264,Ṣọpẹ́ Dìrísù,Sean Donovan
+69068871,490081,372264,Freddie Fox,James 'Spider' Webb
+69212871,346892,372264,James Callis,Claude Whelan
+69212875,298680,372264,Hugo Weaving,Frank Harkness
+69212876,484965,372264,Ruth Bradley,Emma Flyte
+69212878,298764,372264,Joanna Scanlan,Moira Tregorian
+69212879,247998,372264,Tom Brooke,J.K. Coe
+69422273,449518,372264,Sophie Okonedo,Ingrid Tearney
+69422277,9110677,372264,Hiba Bennani,Tara
+69422279,8573842,372264,Rebecca Dyson-Smith,Agent Smith
+69422292,601138,372264,Tamsin Topolski,Kelly Tropper
+69422295,513455,372264,Kiran Sonia Sawar,Agent Giti Rahman
+69450161,453477,372264,Nick Mohammed,Zafar Jaffrey
+69450162,330537,372264,Samuel West,Peter Judd
+65334936,254150,341164,Kevin Costner,John Dutton
+65334937,346467,341164,Danny Huston,Dan Jenkins
+65334938,303906,341164,Dave Annable,Lee Dutton
+65334940,407776,341164,Cole Hauser,Rip Wheeler
+65334941,403730,341164,Kelly Reilly,Beth Dutton
+65334942,304055,341164,Luke Grimes,Kayce Dutton
+65334943,505320,341164,Wes Bentley,Jamie Dutton
+65334944,7985305,341164,Kelsey Asbille,Monica Dutton
+65334945,480916,341164,Tanaya Beatty,Avery
+65334946,7901309,341164,Jefferson White,Jimmy Hurdstrom
+65334950,327395,341164,Ryan Bingham,Walker
+65334952,252225,341164,Gil Birmingham,Thomas Rainwater
+65334954,272504,341164,Josh Holloway,Roarke Carter 
+65617784,325313,341164,Ian Bohen,Ryan
+68358749,538461,341164,Hassie Harrison,Laramie
+68358764,295318,341164,Finn Little,Carter
+68568981,360193,341164,Piper Perabo,Summer Higgins
+68608733,479648,341164,Forrie J. Smith,Lloyd Pierce
+68669342,383164,341164,Hugh Dillon,Sheriff Haskell
+68669344,8251593,341164,Jen Landon,Teeter
+68706608,537452,341164,Eden Brolin,Mia
+68706609,8372468,341164,Denim Richards,Colby
+68827580,295876,341164,Dawn Olivieri,Sarah Atwood
+68827588,300204,341164,Jacki Weaver,Caroline Warner
+68837989,8148329,341164,Lilli Kay,Clara Brewer
+68848268,304285,341164,Josh Lucas,Young John Dutton
+68848270,7925966,341164,Q'orianka Kilcher,Angela Blue Thunder 
+68848272,502449,341164,Mo Brings Plenty,Mo Brings
+68848273,484525,341164,John Emmet Tracy,Ellis Steele
+68848274,576470,341164,Kyle Red Silverstein,Young Rip
+68848275,346885,341164,Kylie Rogers,Young Beth
+68848279,9086236,341164,Lainey Wilson,Abby
+68907256,8150773,341164,Brecken Merrill,Tate Dutton
+67980836,403781,371028,Katie Leung,Caitlyn
+67980837,269008,371028,Kevin Alejandro,Jayce
+67980838,290957,371028,Jason Spisak,Silco
+67980839,329955,371028,Toks Olagundoye,Mel
+67980840,247859,371028,Harry Lloyd,Viktor
+67980842,7897074,371028,JB Blanc,Vander
+67980844,327453,371028,Hailee Steinfeld,Vi
+67980845,599610,371028,Ella Purnell,Jinx
+68365055,8094951,371028,Reed Shannon,Ekko
+68365676,276020,371028,Shohreh Aghdashloo,Grayson
+68365681,596529,371028,Remy Hii,Marcus
+68365684,599556,371028,Mick Wingert, Heimerdinger
+68365685,485840,371028,Amirah Vann,Sevika
+68365695,9027118,371028,Mara Junot,Shoola
+68365698,329951,371028,Brett Tucker,Singed
+68365699,300624,371028,Abigail Marlowe,Mrs. Kiramman
+69155544,302171,371028,Ellen Thomas,Ambessa Medarda
+69276534,8436327,371028,Lucy Lowe,Isha
+65030708,292576,74608,Richard Hammond,Richard Hammond (2002-2015)
+65030711,374335,74608,James May,Presenter (2003-2015)
+65030714,286199,74608,Jeremy Clarkson,Presenter (2002-2015)
+65030717,378921,74608,The Stig,Tame Racing Driver
+65030720,8107705,74608,Jason Dawe,Presenter (2002)
+65030723,327327,74608,Matt LeBlanc,Presenter (2016-2019)
+65030730,285036,74608,Chris Harris,Presenter (2016-Present)
+65030733,7950466,74608,Rory Reid,Presenter (2016-2019)
+65030735,8021575,74608,Eddie Jordan,Presenter (2016)
+65030738,299083,74608,Sabine Schmitz,Presenter (2016-2021)
+65030742,300810,74608,Paddy McGuinness,Presenter (2019-Present)
+65030744,7914492,74608,Freddie Flintoff,Presenter (2019-Present)
+65397747,8014610,74608,Chris Evans,Presenter (2016)
+64089988,275290,269586,Dirk Blocker,Michael Hitchcock
+64089993,267123,269586,Joel McKinnon Miller,Norman “Norm” Scully
+64089997,308213,269586,Andy Samberg,Jake Peralta
+64090000,269467,269586,Andre Braugher,Ray Holt
+64090005,560182,269586,Melissa Fumero,Amy Santiago
+64090009,450438,269586,Stephanie Beatriz,Rosa Diaz
+64090015,308214,269586,Joe Lo Truglio,Charles Boyle
+64090020,294832,269586,Terry Crews,Terry Jeffords
+64090025,308215,269586,Chelsea Peretti,Gina Linetti
+65314647,268151,70626,Brian Krause,Leo Wyatt
+65314650,268152,70626,Julian McMahon,Cole Turner
+65314654,255065,70626,Rose McGowan,Paige Matthews
+65314666,268153,70626,Shannen Doherty,Prue Halliwell
+65314669,267036,70626,Dorian Gregory,Darryl Morris
+65314673,268154,70626,Holly Marie Combs,Piper Halliwell
+65314676,268155,70626,Alyssa Milano,Phoebe Halliwell
+65314680,268156,70626,Drew Fuller,Chris Halliwell
+65314685,268157,70626,Ted King,Andy Trudeau
+65314693,252235,70626,Greg Vaughan,Dan Gordon
+65314699,248035,70626,Kaley Cuoco,Billie Jenkins
+65314704,259659,70626,Jason Lewis,Dex Lawson
+65314711,268158,70626,Jennifer Rhodes,Penny 'Grams' Halliwell
+65314722,268159,70626,Kerr Smith,Kyle Brody
+65314729,268160,70626,Nick Lachey,Leslie St. Claire
+65314738,268161,70626,Ivan Sergei,Henry Mitchell
+65314745,268162,70626,Finola Hughes,Patty Halliwell
+65314750,256998,70626,James Read,Victor Bennett
+65314758,268163,70626,Eric Dane,Jason Dean
+69051141,303908,70626,Balthazar Getty,Richard Montana
+64819092,526158,327417,Álvaro Morte,Profesor
+64819094,454615,327417,Úrsula Corberó,Tokio
+64819096,450781,327417,Pedro Alonso,Berlín
+64819098,493275,327417,Miguel Herrán,Río
+64819100,474095,327417,Paco Tous,Moscú
+64819102,493280,327417,Jaime Lorente,Denver
+64819105,473672,327417,Alba Flores,Nairobi
+64819107,561397,327417,Darko Perić,Helsinki
+64819109,8080991,327417,Roberto García,Oslo
+64819111,561399,327417,Itziar Ituño,Raquel Murillo
+64819112,543785,327417,Fernando Soto,Ángel Rubio
+64819113,7876703,327417,Juan Fernández,Coronel Prieto
+64819114,561400,327417,Esther Acebo,Mónica Gaztambide
+64819115,450327,327417,Enrique Arce,Arturo Román
+64819116,493276,327417,María Pedraza,Alison Parker
+64819117,8080992,327417,Fran Morcillo,Pablo Ruiz
+64819119,561402,327417,Anna Gras,Mercedes Colmenar
+64819120,7953449,327417,Kiti Mánver,Mariví Fuentes
+64819121,561403,327417,Mario de la Rosa,Suárez
+64819122,561404,327417,Naia Guz Sanchez,Paula Vicuña
+64819123,561405,327417,Pep Tosar,Comisario Sánchez
+64819124,561406,327417,Clara Alvarado,Ariadna Cascales
+64819125,561407,327417,Miquel García Borda,Alberto Vicuña
+65485281,481114,327417,Rodrigo de la Serna,Palermo
+65485282,473671,327417,Najwa Nimri,Alicia Sierra
+65485283,8040066,327417,Luka Peroš,Marsella
+65485284,456310,327417,Fernando Cayo,Tamayo
+65485285,499258,327417,Hovik Keuchkerian,Bogotá
+65487320,470114,327417,José Manuel Poga,Cesar Gandía
+67331684,473696,327417,Belén Cuesta,Manila
+64900589,303231,293088,Kaito Ishikawa,Genos
+64900590,7869890,293088,Makoto Furukawa,Saitama
+64900591,303154,293088,Kenjiro Tsuda,Atomic Samurai
+64900592,307082,293088,Kazuhiro Yamaji,Silverfang
+64900593,371836,293088,Tesshou Genda,Bofoy
+64900594,320292,293088,Minami Takayama,Child Emperor
+64900596,8085473,293088,Yoji Ueda,Engine Knight
+64900598,7868605,293088,Saori Hayami,Fubuki
+64900600,271005,293088,Masaya Onosaka,Huff-Puff Prisoner
+64900602,301118,293088,Hiroki Yasumoto,King
+64900604,7864375,293088,Yuichi Nakamura,License-less Rider
+64900607,7875254,293088,Kousuke Toriumi,Lightspeed Flash
+64900609,7865642,293088,Wataru Hatano,Metal Bat
+64900613,292928,293088,Daisuke Namikawa,Pig God
+64900616,293452,293088,Yuki Kaji,Sonic
+64900618,7865993,293088,Satoshi Hino,Superalloy Darkshine
+64900620,292480,293088,Mamoru Miyano,Sweet Mask
+64900622,271010,293088,Katsuyuki Konishi,Tanktop Master
+64900624,7864377,293088,Aoi Yuki,Tatsumaki
+64900626,8085473,293088,Yoji Ueda,Watchdog
+64900628,277100,293088,Takahiro Sakurai,Zombieman
+64900630,303114,293088,Hikaru Midorikawa,Garou
+64900631,289876,293088,Masaya Matsukaze,Suiryū
+64900632,371836,293088,Tesshou Genda,Metal Knight
+64900634,279183,293088,Yuuji Ueda,Banken Man
+64900637,303112,293088,Souichirou Hoshi,Max Lightning
