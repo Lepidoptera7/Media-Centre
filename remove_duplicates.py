@@ -3,11 +3,15 @@ import os
 
 # --- file paths ---
 files = {
-    "series": r"/mnt/58280C00280BDBBE/Media-Centre/Series/series_data.csv",
-    "episodes": r"/mnt/58280C00280BDBBE/Media-Centre/Series/episodes_data.csv",
-    "cast": r"/mnt/58280C00280BDBBE/Media-Centre/Series/series_cast_data.csv",
-    "look_up": r"/mnt/58280C00280BDBBE/Media-Centre/Series/series_lookup.csv",
-    "list": r"/mnt/58280C00280BDBBE/Media-Centre/Series/series_list.txt"
+    #"series": r"/mnt/58280C00280BDBBE/Media-Centre/Series/series_data.csv",
+    #"episodes": r"/mnt/58280C00280BDBBE/Media-Centre/Series/episodes_data.csv",
+    #"series_cast": r"/mnt/58280C00280BDBBE/Media-Centre/Series/series_cast_data.csv",
+    #"series_look_up": r"/mnt/58280C00280BDBBE/Media-Centre/Series/series_lookup.csv",
+    #"series_list": r"/mnt/58280C00280BDBBE/Media-Centre/Series/series_list.txt",
+    "movie_list": r"/mnt/58280C00280BDBBE/Media-Centre/Movies/movie_list.txt",
+    "movie_lookup": r"/mnt/58280C00280BDBBE/Media-Centre/Movies/movie_lookup.csv",
+    "movie_cast": r"/mnt/58280C00280BDBBE/Media-Centre/Movies/movies_cast_data.csv",
+    "movies": r"/mnt/58280C00280BDBBE/Media-Centre/Movies/movies_data.csv"
 }
 
 for name, path in files.items():

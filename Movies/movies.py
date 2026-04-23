@@ -2,21 +2,21 @@ import os
 import pandas as pd
 import tvdb_v4_official
 
-movies_csv = r"C:\Not_Work\notworknotgames\cyber sec\home server\movies\movies_data.csv"
-cast_csv = r"C:\Not_Work\notworknotgames\cyber sec\home server\movies\cast_data.csv"
+movies_csv = r"/mnt/58280C00280BDBBE/Media-Centre/Movies/movies_data.csv"
+cast_csv = r"/mnt/58280C00280BDBBE/Media-Centre/Movies/movies_cast_data.csv"
 
-with open(r"C:\Not_Work\notworknotgames\cyber sec\home server\TVDB.txt", "r") as f:
+with open(r"/mnt/58280C00280BDBBE/Media-Centre/tvdb.txt", "r") as f:
     api_key = f.read().strip()
 
 tvdb = tvdb_v4_official.TVDB(api_key)
 
-lookup_path = r"C:\Not_Work\notworknotgames\cyber sec\home server\movies\movie_lookup.csv"
+lookup_path = r"/mnt/58280C00280BDBBE/Media-Centre/Movies/movie_lookup.csv"
 df_lookup = pd.read_csv(lookup_path).dropna(subset=["tvdb_id"])
 #df_lookup = df_lookup.dropna(subset=["tvdb_id"])
 
 # Existing data
 input_ids = df_lookup["tvdb_id"].astype(int).tolist()
-existing_csv = r"C:\Not_Work\notworknotgames\cyber sec\home server\movies\movies_data.csv"
+existing_csv = r"/mnt/58280C00280BDBBE/Media-Centre/Movies/movies_data.csv"
 
 if os.path.exists(existing_csv):
     df_existing = pd.read_csv(existing_csv)

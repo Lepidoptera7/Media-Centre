@@ -1,4 +1,4 @@
-The Super Mario Bros. Movie
+﻿The Super Mario Bros. Movie
 Harry Potter and the Philosopher's Stone
 Harry Potter and the Chamber of Secrets
 Harry Potter and the Prisoner of Azkaban
@@ -87,7 +87,7 @@ Dinosaur
 The Emperor's New Groove
 Recess: School's Out
 Atlantis: The Lost Empire
-Monsters, Inc.
+Monsters Inc.
 Return to Never Land
 Lilo & Stitch
 Treasure Planet
@@ -168,7 +168,150 @@ Jurassic World: Fallen Kingdom
 Jurassic World Dominion
 Jurassic World Rebirth
 Raiders of the Lost Ark
-The Temple of Doom
-The Last Crusade
-The Kingdom of the Crystal Skull
+Indiana Jones and the Temple of Doom
+Indiana Jones and the Last Crusade
+Indiana Jones and the Kingdom of the Crystal Skull
 The Dial of Destiny
+The Fast and the Furious
+2 Fast 2 Furious
+The Fast and the Furious: Tokyo Drift
+Fast & Furious
+Fast Five
+Fast & Furious 6
+Furious 7
+The Fate of the Furious
+Hobbs & Shaw
+F9
+Fast X
+The 13th Warrior
+Bulletproof Monk
+Jaws
+The Sixth Sense
+To Kill a Mockingbird
+Run Man Run
+Django Kill If You Live Shoot
+My Name is Nobody
+Return of Ringo
+Keoma
+Cemetary Without Crosses
+Day of Anger
+A Bullet for the General
+Face to Face
+Companeros
+Duck You Sucker
+Death Rides a Horse
+The Mercenary
+Django
+A Fistful of Dollars
+The Big Gundown
+The Great Silence
+For a Few Dollars More
+E.T.: The Extra-Terrestrial
+Evolution
+Groundhog Day
+Shaolin and Wu Tang
+Enter the Dragon
+Game of Death
+Way of the Dragon
+Fist of Fury
+Big Boss
+Big Trouble in Little China
+Schindler's List
+Baby Driver
+The Gentlemen
+War Games
+Citizen Kane
+Oppenheimer
+Lawrence of Arabia
+The Hunt
+Eternal Sunshine of the Spotless Mind
+Requiem for a Dream
+Come and See
+Capernaum
+Once Upon a Time in America
+Once Upon a Time in Hollywood
+3 Idiots
+Your Name
+Joker
+Princess Mononoke
+Good Will Hunting
+Braveheart
+American Beauty
+Oldboy
+Amadeus
+Inglourious Basterds
+The Ring
+The Shining
+The Lives of Others
+12th Fail
+Memento
+Fullmetal Jacket
+Once Upon a Time in the West
+Cinema Paradiso
+The Intouchables
+Casablance
+Reservoir Dogs
+Kill Bill
+The Usual Suspects
+Harakiri
+Grave of the Fireflies
+American History X
+Whiplash
+Psycho
+Parasite
+The Pianist
+Spirited Away
+Terminator: Dark Fate
+Terminator Genisys
+Terminator Salvation
+Terminator 3: Rise of the Machines
+Terminator 2: Judgement Day
+The Terminator
+The Green Mile
+Life is Beautiful
+City of God
+Saving Private Ryan
+The Silence of the Lambs
+Seven Samurai
+It's a Wonderful Life
+Se7en
+One Flew Over the Cuckoo's Nest
+Inception
+Taxi Driver
+Fight Club
+Forrest Gump
+The Good the Bad and the Ugly
+Pulp Fiction
+The Lord of the Rings: Fellowship of the Ring
+The Lord of the Rings: The Two Towers
+The Lords of the Rings: Return of the King
+12 Angry Men
+The Dark Knight Rises
+The Dark Knight
+Batman Begins
+The Godfather Part II
+The Godfather
+The Shawshank Redemption
+Rambo: Last Blood
+Rambo
+Rambo III
+Rambo: First Blood Part II
+First Blood
+Predator: Badlands
+Predator: Killer of Killers
+Prey
+The Predator
+Predators
+Predator 2
+Predator
+Alien: Resurrection
+Alien 3
+Aliens
+Alien: Romulus
+Alien: Covenant
+Prometheus
+Aliens vs Predator: Requiem
+Alien vs Predator
+Alien
+Ateam
+The Exorcism of Emily Rose

@@ -1,0 +1,156 @@
+/mnt/58280C00280BDBBE/Media-Centre/.venv/bin/python /mnt/58280C00280BDBBE/Media-Centre/Movies/movies.py
+Processing: The Fast and the Furious
+Processing: 2 Fast 2 Furious
+Processing: The Fast and the Furious: Tokyo Drift
+Processing: Fast & Furious
+Processing: Fast Five
+Processing: Fast & Furious 6
+Processing: Furious 7
+Processing: The Fate of the Furious
+Processing: Hobbs & Shaw
+Processing: F9
+Processing: Fast X
+Processing: The 13th Warrior
+Processing: Bulletproof Monk
+Processing: Jaws
+Processing: The Sixth Sense
+Processing: To Kill a Mockingbird
+Processing: Run Man Run
+Processing: Django Kill If You Live Shoot
+Processing: My Name is Nobody
+Failed for My Name is Nobody:
+Processing: Return of Ringo
+Processing: Keoma
+Processing: Cemetary Without Crosses
+Processing: Day of Anger
+Processing: A Bullet for the General
+Processing: Face to Face
+Processing: Companeros
+Processing: Duck You Sucker
+Processing: Death Rides a Horse
+Processing: The Mercenary
+Processing: Django
+Failed for Django: failed to get https://api4.thetvdb.com/v4/movies/397073/extended?short=False
+  NotFoundException: not found
+Processing: A Fistful of Dollars
+Processing: The Big Gundown
+Processing: The Great Silence
+Processing: For a Few Dollars More
+Processing: E.T.: The Extra-Terrestrial
+Processing: Evolution
+Processing: Groundhog Day
+Processing: Shaolin and Wu Tang
+Processing: Enter the Dragon
+Processing: Game of Death
+Processing: Way of the Dragon
+Processing: Fist of Fury
+Processing: Big Boss
+Failed for Big Boss:
+Processing: Big Trouble in Little China
+Processing: Schindler's List
+Processing: Baby Driver
+Processing: The Gentlemen
+Failed for The Gentlemen: failed to get https://api4.thetvdb.com/v4/movies/426845/extended?short=False
+  NotFoundException: not found
+Processing: War Games
+Processing: Citizen Kane
+Processing: Oppenheimer
+Processing: Lawrence of Arabia
+Processing: The Hunt
+Processing: Eternal Sunshine of the Spotless Mind
+Processing: Requiem for a Dream
+Processing: Come and See
+Processing: Capernaum
+Processing: Once Upon a Time in America
+Processing: Once Upon a Time in Hollywood
+Processing: 3 Idiots
+Failed for 3 Idiots: failed to get https://api4.thetvdb.com/v4/movies/455729/extended?short=False
+  NotFoundException: not found
+Processing: Your Name
+Processing: Joker
+Processing: Princess Mononoke
+Processing: Good Will Hunting
+Processing: Braveheart
+Processing: American Beauty
+Processing: Oldboy
+Processing: Amadeus
+Processing: Inglourious Basterds
+Processing: The Ring
+Processing: The Shining
+Processing: The Lives of Others
+Processing: 12th Fail
+Processing: Memento
+Processing: Fullmetal Jacket
+Processing: Once Upon a Time in the West
+Processing: Cinema Paradiso
+Processing: The Intouchables
+Processing: Casablance
+Processing: Reservoir Dogs
+Processing: Kill Bill
+Processing: The Usual Suspects
+Processing: Harakiri
+Processing: Grave of the Fireflies
+Processing: American History X
+Processing: Whiplash
+Processing: Psycho
+Processing: Parasite
+Processing: The Pianist
+Processing: Spirited Away
+Processing: Terminator: Dark Fate
+Processing: Terminator Genisys
+Processing: Terminator Salvation
+Processing: Terminator 3: Rise of the Machines
+Processing: Terminator 2: Judgement Day
+Processing: The Terminator
+Processing: The Green Mile
+Processing: Life is Beautiful
+Processing: City of God
+Failed for City of God:
+Processing: Saving Private Ryan
+Processing: The Silence of the Lambs
+Processing: Seven Samurai
+Processing: It's a Wonderful Life
+Processing: Se7en
+Processing: One Flew Over the Cuckoo's Nest
+Processing: Inception
+Processing: Taxi Driver
+Processing: Fight Club
+Processing: Forrest Gump
+Processing: The Good the Bad and the Ugly
+Processing: Pulp Fiction
+Processing: The Lord of the Rings: Fellowship of the Ring
+Processing: The Lord of the Rings: The Two Towers
+Processing: The Lords of the Rings: Return of the King
+Processing: 12 Angry Men
+Processing: The Dark Knight Rises
+Processing: The Dark Knight
+Processing: Batman Begins
+Processing: The Godfather Part II
+Processing: The Godfather
+Processing: The Shawshank Redemption
+Processing: Rambo: Last Blood
+Processing: Rambo
+Processing: Rambo III
+Processing: Rambo: First Blood Part II
+Processing: First Blood
+Processing: Predator: Badlands
+Processing: Predator: Killer of Killers
+Processing: Prey
+Processing: The Predator
+Processing: Predators
+Processing: Predator 2
+Processing: Predator
+Processing: Alien: Resurrection
+Processing: Alien 3
+Processing: Aliens
+Processing: Alien: Romulus
+Processing: Alien: Covenant
+Processing: Prometheus
+Processing: Aliens vs Predator: Requiem
+Processing: Alien vs Predator
+Processing: Alien
+Processing: Ateam
+Processing: The Exorcism of Emily Rose
+Done
+
+Process finished with exit code 0
