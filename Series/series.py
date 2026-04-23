@@ -2,17 +2,17 @@ import pandas as pd
 import os
 import tvdb_v4_official
 
-series_csv = r"/mnt/58280C00280BDBBE/db_tvdb/tv_series/series_data.csv"
-episodes_csv = r"/mnt/58280C00280BDBBE/db_tvdb/tv_series/episodes_data.csv"
-cast_csv = r"/mnt/58280C00280BDBBE/db_tvdb/tv_series/cast_data.csv"
+series_csv = r"/mnt/58280C00280BDBBE/Media-Centre/Series/series_data.csv"
+episodes_csv = r"/mnt/58280C00280BDBBE/Media-Centre/Series/episodes_data.csv"
+cast_csv = r"/mnt/58280C00280BDBBE/Media-Centre/Series/series_cast_data.csv"
 
 # --- load API key ---
-with open(r"/mnt/58280C00280BDBBE/db_tvdb/tvdb.txt", "r") as f:
+with open(r"/mnt/58280C00280BDBBE/Media-Centre/tvdb.txt", "r") as f:
     api_key = f.read().strip()
 
 tvdb = tvdb_v4_official.TVDB(api_key)
 
-lookup_path = r"/mnt/58280C00280BDBBE/db_tvdb/tv_series/series_lookup.csv"
+lookup_path = r"/mnt/58280C00280BDBBE/Media-Centre/Series/series_lookup.csv"
 
 df_lookup = pd.read_csv(lookup_path)
 
@@ -21,7 +21,7 @@ df_lookup = df_lookup.dropna(subset=["tvdb_id"])
 
 input_ids = df_lookup["tvdb_id"].astype(int).tolist()
 
-existing_csv = r"/mnt/58280C00280BDBBE/db_tvdb/tv_series/series_data.csv"
+existing_csv = r"/mnt/58280C00280BDBBE/Media-Centre/Series/series_data.csv"
 
 if os.path.exists(existing_csv):
     df_existing = pd.read_csv(existing_csv)
@@ -84,7 +84,8 @@ for _, row in to_process_df.iterrows():
     except Exception as e:
         print(f"Failed for {series_name}: {e}")
 
-# --- combine everything ---
+# Combine Everything
+# Export
 if all_series:
     df_series_all = pd.concat(all_series, ignore_index=True)
     df_series_all.to_csv(series_csv, mode="a", header=not os.path.exists(series_csv), index=False)
@@ -103,9 +104,5 @@ if all_cast:
 else:
     print("Cast table is up to date.")
 
-# --- export ---
-# df_series_all.to_csv(series_csv, mode="a", header=not os.path.exists(series_csv), index=False)
-# df_episodes_all.to_csv(episodes_csv, mode="a", header=not os.path.exists(episodes_csv), index=False)
-# df_cast_all.to_csv(cast_csv, mode="a", header=not os.path.exists(cast_csv), index=False)
 
 print("Done.")

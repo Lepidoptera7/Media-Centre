@@ -3,9 +3,9 @@ import tvdb_v4_official
 import os
 
 # --- paths ---
-lookup_path = r"/mnt/58280C00280BDBBE/db_tvdb/tv_series/tvdb_lookup.csv"
-series_list_path = r"/mnt/58280C00280BDBBE/db_tvdb/tv_series/series_list.txt"
-api_key_path = r"/mnt/58280C00280BDBBE/db_tvdb/tvdb.txt"
+lookup_path = r"/mnt/58280C00280BDBBE/Media-Centre/Series/series_lookup.csv"
+series_list_path = r"/mnt/58280C00280BDBBE/Media-Centre/Series/series_list.txt"
+api_key_path = r"/mnt/58280C00280BDBBE/Media-Centre/tvdb.txt"
 
 # --- load API key ---
 with open(api_key_path, "r") as f:

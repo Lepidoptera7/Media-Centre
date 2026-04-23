@@ -3,9 +3,11 @@ import os
 
 # --- file paths ---
 files = {
-    "series": r"/mnt/58280C00280BDBBE/db_tvdb/tv_series/series_data.csv",
-    "episodes": r"/mnt/58280C00280BDBBE/db_tvdb/tv_series/episodes_data.csv",
-    "cast": r"/mnt/58280C00280BDBBE/db_tvdb/tv_series/cast_data.csv"
+    "series": r"/mnt/58280C00280BDBBE/Media-Centre/Series/series_data.csv",
+    "episodes": r"/mnt/58280C00280BDBBE/Media-Centre/Series/episodes_data.csv",
+    "cast": r"/mnt/58280C00280BDBBE/Media-Centre/Series/series_cast_data.csv",
+    "look_up": r"/mnt/58280C00280BDBBE/Media-Centre/Series/series_lookup.csv",
+    "list": r"/mnt/58280C00280BDBBE/Media-Centre/Series/series_list.txt"
 }
 
 for name, path in files.items():

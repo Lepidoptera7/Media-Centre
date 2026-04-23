@@ -1,4 +1,4 @@
-The Big Bang Theory
+﻿The Big Bang Theory
 Friends
 The Office
 Game of Thrones
@@ -59,7 +59,7 @@ Shogun
 House of the Dragon
 3 Body Problem
 Peaky Blinders
-Love, Death & Robots
+Love Death & Robots
 Marvel - Jessica Jones
 Money Heist
 You
@@ -92,7 +92,6 @@ See
 The Morning Show
 Obi-Wan Kenobi
 Marvel's Ironfist
-The Morning Show
 Vikings
 Vikings: Valhalla
 Entourage
@@ -125,7 +124,6 @@ Lessons in Chemistry
 What If...?
 Heated Rivalry
 The Brothers Sun
-The Witcher
 Jujutsu Kaisen
 Avatar: The Last Airbender (2024)
 Bridgerton
@@ -204,7 +202,7 @@ Halo
 Ms Marvel
 The Umbrella Academy
 She-Hulk: Attorney at Law
-Sandman
+The Sandman (366211)
 13 Reasons Why
 Dynasty
 Orange is the New Black
@@ -212,3 +210,4 @@ The Book of Boba Fett
 The End of the F***ing World
 The Continental: From the World of John Wick
 The Gentlemen (426845)
+Zoids (77907)
