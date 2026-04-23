@@ -12,7 +12,7 @@ with open(r"/mnt/58280C00280BDBBE/db_tvdb/tvdb.txt", "r") as f:
 
 tvdb = tvdb_v4_official.TVDB(api_key)
 
-lookup_path = r"/mnt/58280C00280BDBBE/db_tvdb/tv_series/tvdb_lookup.csv"
+lookup_path = r"/mnt/58280C00280BDBBE/db_tvdb/tv_series/series_lookup.csv"
 
 df_lookup = pd.read_csv(lookup_path)
 
