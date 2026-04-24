@@ -251,7 +251,8 @@ Cinema Paradiso
 The Intouchables
 Casablance
 Reservoir Dogs
-Kill Bill
+Kill Bill Vol 1.
+Kill Bill Vol 2.
 The Usual Suspects
 Harakiri
 Grave of the Fireflies
@@ -315,3 +316,83 @@ Alien vs Predator
 Alien
 Ateam
 The Exorcism of Emily Rose
+Scary Movie
+Scary Movie 2
+Scary Movie 3
+Scary Movie 4
+Scary Movie 5
+The Room
+The Disaster Artist
+Saw
+Saw II
+Saw III
+Saw IV
+Saw V
+Saw Vi
+Jigsaw
+Spiral
+Saw X
+Final Destination
+Final Destination 2
+Final Destination 3
+The Final Destination
+Final Destination 5
+Final Destination Bloodlines
+Drunken Master
+Rush Hour
+Rush Hour 2
+Rush Hour 3
+Gorgeous
+Shanghai Noon
+Shanghai Knights
+The Accidental Spy
+Around the World in 80 Days
+Kung Fu Panda
+Kung Fu Panda 2
+Kung Fu Panda 3
+Kung Fu Panda 4
+The Road to El Dorado
+The Spy Next Door
+The Karate Kid (1984)
+The Karate Kid Part II
+The Karate Kid Part III
+The Next Karate Kid
+The Karate Kid (2010)
+Shrek
+Shrek 2
+Shrek the Third
+Shrek Forever After
+Puss in Boots
+Puss in Boots: The Last Wish
+The League of Extraodinary Gentlemen
+Constantine
+V for Vendetta
+Stardust
+Watchmen
+The Losers
+Jonah Hex
+Red
+Green Lantern
+Man of Steel
+Red 2
+Batman vs Superman: Dawn of Justice
+Suicide Squad
+Wonder Woman
+Justice League
+Aquaman
+Shazam
+The Kitchen
+Joker
+Birds of Prey
+Wonder Woman 1984
+Zach Snyder's Justice League
+The Suicide Squad
+The Batman
+Black Adam
+Shazam! Fury of the Gods
+The Flash
+Blue Beetle
+Aquaman and the Lost Kingdom
+Joker: Folie a Deux
+Superman (2025)
+The Woman King
