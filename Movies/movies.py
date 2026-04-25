@@ -1,22 +1,25 @@
+from dotenv import load_dotenv
 import os
 import pandas as pd
 import tvdb_v4_official
 
-movies_csv = r"/mnt/58280C00280BDBBE/Media-Centre/Movies/movies_data.csv"
-cast_csv = r"/mnt/58280C00280BDBBE/Media-Centre/Movies/movies_cast_data.csv"
+# --- base variables ---
+load_dotenv()
+api_key = os.getenv("TVDB_API_KEY")
+assert api_key is not None, "Missing API key"
+mov_dir = os.getenv("MOVIE_DIR")
 
-with open(r"/mnt/58280C00280BDBBE/Media-Centre/tvdb.txt", "r") as f:
-    api_key = f.read().strip()
+movies_csv = mov_dir + "/movies_data.csv"
+cast_csv = mov_dir + "/movies_cast_data.csv"
 
 tvdb = tvdb_v4_official.TVDB(api_key)
 
-lookup_path = r"/mnt/58280C00280BDBBE/Media-Centre/Movies/movie_lookup.csv"
+lookup_path = mov_dir + "/movie_lookup.csv"
 df_lookup = pd.read_csv(lookup_path).dropna(subset=["tvdb_id"])
-#df_lookup = df_lookup.dropna(subset=["tvdb_id"])
 
 # Existing data
 input_ids = df_lookup["tvdb_id"].astype(int).tolist()
-existing_csv = r"/mnt/58280C00280BDBBE/Media-Centre/Movies/movies_data.csv"
+existing_csv = mov_dir + "/movies_data.csv"
 
 if os.path.exists(existing_csv):
     df_existing = pd.read_csv(existing_csv)
@@ -38,10 +41,6 @@ for _, row in to_process_df.iterrows():
         # --- fetch data ---
         movies = tvdb.get_movie_extended(movie_id)
         cast = movies["characters"]
-
-        #print(movies.keys())
-        #print()
-        #print(cast)
 
         df_movies = pd.json_normalize(movies)[["id",
                                               "name",

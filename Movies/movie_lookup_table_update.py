@@ -1,15 +1,16 @@
+from dotenv import load_dotenv
+import os
 import pandas as pd
 import tvdb_v4_official
-import os
 
-# --- paths ---
-lookup_path = r"/mnt/58280C00280BDBBE/Media-Centre/Movies/movie_lookup.csv"
-movie_list_path = r"/mnt/58280C00280BDBBE/Media-Centre/Movies/movie_list.txt"
-api_key_path = r"/mnt/58280C00280BDBBE/Media-Centre/tvdb.txt"
+# --- base variables ---
+load_dotenv()
+mov_dir = os.getenv("MOVIE_DIR")
 
-# --- load API key ---
-with open(api_key_path, "r") as f:
-    api_key = f.read().strip()
+lookup_path = mov_dir + "/movie_lookup.csv"
+movie_list_path = mov_dir + "/movie_list.txt"
+api_key = os.getenv("TVDB_API_KEY")
+assert api_key is not None, "Missing API key"
 
 tvdb = tvdb_v4_official.TVDB(api_key)
 

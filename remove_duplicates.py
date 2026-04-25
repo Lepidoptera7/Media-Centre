@@ -1,17 +1,23 @@
-import pandas as pd
+from dotenv import load_dotenv
 import os
+import pandas as pd
+
+# --- directory ---
+load_dotenv()
+mov_dir = os.getenv("MOVIE_DIR")
+ser_dir = os.getenv("SERIES_DIR")
 
 # --- file paths ---
 files = {
-    #"series": r"/mnt/58280C00280BDBBE/Media-Centre/Series/series_data.csv",
-    #"episodes": r"/mnt/58280C00280BDBBE/Media-Centre/Series/episodes_data.csv",
-    #"series_cast": r"/mnt/58280C00280BDBBE/Media-Centre/Series/series_cast_data.csv",
-    #"series_look_up": r"/mnt/58280C00280BDBBE/Media-Centre/Series/series_lookup.csv",
-    #"series_list": r"/mnt/58280C00280BDBBE/Media-Centre/Series/series_list.txt",
-    "movie_list": r"/mnt/58280C00280BDBBE/Media-Centre/Movies/movie_list.txt",
-    "movie_lookup": r"/mnt/58280C00280BDBBE/Media-Centre/Movies/movie_lookup.csv",
-    "movie_cast": r"/mnt/58280C00280BDBBE/Media-Centre/Movies/movies_cast_data.csv",
-    "movies": r"/mnt/58280C00280BDBBE/Media-Centre/Movies/movies_data.csv"
+    #"series": ser_dir + "/series_data.csv",
+    #"episodes": ser_dir + "/episodes_data.csv",
+    #"series_cast": ser_dir + "/series_cast_data.csv",
+    #"series_look_up": ser_dir + "/series_lookup.csv",
+    #"series_list": ser_dir + "/series_list.txt",
+    "movie_list": mov_dir + "/movie_list.txt",
+    "movie_lookup": mov_dir + "/movie_lookup.csv",
+    "movie_cast": mov_dir + "/movies_cast_data.csv",
+    "movies": mov_dir + "/movies_data.csv"
 }
 
 for name, path in files.items():
