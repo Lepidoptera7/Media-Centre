@@ -1,93 +1,106 @@
 from dotenv import load_dotenv
 import os
-import pandas as pd
+import psycopg2
 import tvdb_v4_official
 
-# --- base variables ---
+# --- setup ---
 load_dotenv()
 api_key = os.getenv("TVDB_API_KEY")
-assert api_key is not None, "Missing API key"
 mov_dir = os.getenv("MOVIE_DIR")
-
-movies_csv = mov_dir + "/movies_data.csv"
-cast_csv = mov_dir + "/movies_cast_data.csv"
 
 tvdb = tvdb_v4_official.TVDB(api_key)
 
-lookup_path = mov_dir + "/movie_lookup.csv"
-df_lookup = pd.read_csv(lookup_path).dropna(subset=["tvdb_id"])
+conn = psycopg2.connect(
+    dbname=os.getenv("SQL_DB"),
+    user=os.getenv("SQL_USER"),
+    password=os.getenv("SQL_PWD"),
+    host="localhost",
+    port="5432"
+)
+cur = conn.cursor()
 
-# Existing data
-input_ids = df_lookup["tvdb_id"].astype(int).tolist()
-existing_csv = mov_dir + "/movies_data.csv"
+# --- get IDs to process ---
+cur.execute("""
+    SELECT input_name, tvdb_id
+    FROM movie_lookup
+    WHERE tvdb_id IS NOT NULL
+""")
+rows = cur.fetchall()
 
-if os.path.exists(existing_csv):
-    df_existing = pd.read_csv(existing_csv)
-    processed = set(df_existing["id"].dropna().astype(int).unique())
-else:
-    processed = set()
+lookup = {}
+for name, tvdb_id in rows:
+    lookup.setdefault(tvdb_id, name)
+all_ids = set(lookup.keys())
 
-to_process_df = df_lookup[~df_lookup["tvdb_id"].isin(processed)]
+cur.execute("SELECT id FROM movies")
+processed = {row[0] for row in cur.fetchall()}
 
-all_movies = []
-all_cast = []
+to_process = all_ids - processed
 
-for _, row in to_process_df.iterrows():
-    movie_id = row["tvdb_id"]
-    movie_name = row["input_name"]
-    print(f"Processing: {movie_name}")
+def clean_int(value):
+    try:
+        return int(float(value))
+    except (TypeError, ValueError):
+        return None
+
+# --- process ---
+for movie_id in to_process:
+    print(f"Processing: {lookup.get(movie_id, movie_id)}")
 
     try:
-        # --- fetch data ---
-        movies = tvdb.get_movie_extended(movie_id)
-        cast = movies["characters"]
+        data = tvdb.get_movie_extended(movie_id)
 
-        df_movies = pd.json_normalize(movies)[["id",
-                                              "name",
-                                              "slug",
-                                              "runtime",
-                                              "year",
-                                              "genres",
-                                              "budget",
-                                              "boxOffice",
-                                              "originalCountry",
-                                              "originalLanguage",
-                                              "lists",
-                                              "status.recordType"
-                                             ]]
+        # --- movie ---
+        genres = ", ".join(g["name"] for g in data.get("genres", [])) if data.get("genres") else None
+        lists = data.get("lists") or []
+        franchise = lists[0]["name"] if len(lists) > 0 else None
 
-        df_movies["genres"] = df_movies["genres"].apply(
-                                                        lambda x: ", ".join(g["name"] for g in x) if isinstance(x, list) else None
-                                                        )
-        
-        df_movies = df_movies.rename(columns={"lists": "franchise"})
-        df_movies["franchise"] = df_movies["franchise"].apply(
-                                                              lambda x: x[0]["name"] if isinstance(x, list) and len(x) > 0 else None
-                                                              )
-        if "acquired" not in df_movies.columns:
-            df_movies.insert(2, "acquired", False)
-        all_movies.append(df_movies)
+        cur.execute("""
+            INSERT INTO movies (
+                id, name, slug, runtime, year, genres,
+                budget, box_office, original_country,
+                original_language, franchise, record_type, acquired
+            )
+            VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+            ON CONFLICT (id) DO NOTHING
+        """, (
+            data.get("id"),
+            data.get("name"),
+            data.get("slug"),
+            data.get("runtime"),
+            data.get("year"),
+            genres,
+            clean_int(data.get("budget")),
+            clean_int(data.get("boxOffice")),
+            data.get("originalCountry"),
+            data.get("originalLanguage"),
+            franchise,
+            data.get("status", {}).get("recordType"),
+            False
+        ))
 
-
-        # --- CAST & CREW ---
-        df_cast = pd.json_normalize(cast)[[
-            "id", "peopleId", "movieId", "personName", "name", "peopleType"
-        ]]
-        all_cast.append(df_cast)
+        # --- cast ---
+        for c in data.get("characters", []):
+            cur.execute("""
+                INSERT INTO movies_cast (
+                    id, people_id, movie_id,
+                    person_name, role_name, people_type
+                )
+                VALUES (%s, %s, %s, %s, %s, %s)
+            """, (
+                c.get("id"),
+                c.get("peopleId"),
+                movie_id,
+                c.get("personName"),
+                c.get("name"),
+                c.get("peopleType")
+            ))
 
     except Exception as e:
-        print(f"Failed for {movie_name}: {e}")
+        print(f"Failed: {lookup[movie_id]} → {e}")
 
-if all_movies:
-    df_movies_all = pd.concat(all_movies, ignore_index=True)
-    df_movies_all.to_csv(movies_csv, mode="a", header=not os.path.exists(movies_csv), index=False)
-else:
-    print("Movies table is up to date.")
-
-if all_cast:
-    df_cast_all = pd.concat(all_cast, ignore_index=True)
-    df_cast_all.to_csv(cast_csv, mode="a", header=not os.path.exists(cast_csv), index=False)
-else:
-    print("Cast table is up to date.")
+conn.commit()
+cur.close()
+conn.close()
 
 print("Done")

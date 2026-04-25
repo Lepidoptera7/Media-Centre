@@ -15,9 +15,9 @@ files = {
     #"series_look_up": ser_dir + "/series_lookup.csv",
     #"series_list": ser_dir + "/series_list.txt",
     "movie_list": mov_dir + "/movie_list.txt",
-    "movie_lookup": mov_dir + "/movie_lookup.csv",
-    "movie_cast": mov_dir + "/movies_cast_data.csv",
-    "movies": mov_dir + "/movies_data.csv"
+    #"movie_lookup": mov_dir + "/movie_lookup.csv",
+    #"movie_cast": mov_dir + "/movies_cast_data.csv",
+    #"movies": mov_dir + "/movies_data.csv"
 }
 
 for name, path in files.items():

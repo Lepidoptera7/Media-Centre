@@ -1,77 +1,93 @@
 from dotenv import load_dotenv
 import os
-import pandas as pd
+import psycopg2
 import tvdb_v4_official
 
 # --- base variables ---
 load_dotenv()
-mov_dir = os.getenv("MOVIE_DIR")
 
-lookup_path = mov_dir + "/movie_lookup.csv"
+mov_dir = os.getenv("MOVIE_DIR")
 movie_list_path = mov_dir + "/movie_list.txt"
+
 api_key = os.getenv("TVDB_API_KEY")
 assert api_key is not None, "Missing API key"
 
 tvdb = tvdb_v4_official.TVDB(api_key)
 
-# --- load or create lookup table ---
-if os.path.exists(lookup_path):
-    df_lookup = pd.read_csv(lookup_path)
-else:
-    df_lookup = pd.DataFrame(columns=["input_name", "matched_name", "tvdb_id"])
+# --- PostgreSQL connection ---
+conn = psycopg2.connect(
+    dbname = os.getenv("SQL_DB"),
+    user = os.getenv("SQL_USER"),
+    password = os.getenv("SQL_PWD"),
+    host = "localhost",
+    port = "5432"
+)
 
-# --- ensure columns exist ---
-for col in ["input_name", "matched_name", "tvdb_id"]:
-    if col not in df_lookup.columns:
-        df_lookup[col] = None
+cur = conn.cursor()
 
 # --- load new names ---
 with open(movie_list_path, "r", encoding="utf-8") as f:
     new_names = [line.strip() for line in f if line.strip()]
 
-# --- add new names (no duplicates) ---
-existing_names = set(df_lookup["input_name"].astype(str))
-
+# --- Insert new names, ignore duplicates ---
 for name in new_names:
-    if name not in existing_names:
-        df_lookup.loc[len(df_lookup)] = [name, None, None]
+    cur.execute("""
+        INSERT INTO movie_lookup (input_name, matched_name, tvdb_id)
+        VALUES (%s, NULL, NULL)
+        ON CONFLICT (input_name) DO NOTHING
+    """, (name,))
 
-# --- force dtype AFTER all inserts ---
-df_lookup["tvdb_id"] = pd.to_numeric(df_lookup["tvdb_id"], errors="coerce").astype("Int64")
+conn.commit()
 
-# --- resolver ---
+# --- TVDB resolver ---
 def resolve_tvdb_id(tvdb, name):
-    results = tvdb.search(name)
+    try:
+        results = tvdb.search(name)
+    except Exception:
+        return None, None
+
     if not results:
         return None, None
 
-    # exact match
+    # exact match (case-insensitive)
     for r in results:
         if r.get("name", "").lower() == name.lower():
-            return r["tvdb_id"], r.get("name")
+            return r.get("tvdb_id"), r.get("name")
 
-    # fallback
+    # fallback to first result
     r = results[0]
-    return r["tvdb_id"], r.get("name")
+    return r.get("tvdb_id"), r.get("name")
 
 # --- update missing rows only ---
-mask = df_lookup["tvdb_id"].isna()
+cur.execute("""
+    SELECT input_name
+    FROM movie_lookup
+    WHERE tvdb_id IS NULL
+""")
+missing_rows = cur.fetchall()
 
-for idx in df_lookup[mask].index:
-    name = df_lookup.loc[idx, "input_name"]
-
+for (name,) in missing_rows:
     try:
         tvdb_id, matched_name = resolve_tvdb_id(tvdb, name)
 
-        df_lookup.loc[idx, "tvdb_id"] = int(tvdb_id) if tvdb_id else None
-        df_lookup.loc[idx, "matched_name"] = matched_name
+        cur.execute("""
+            UPDATE movie_lookup
+            SET tvdb_id = %s,
+                matched_name = %s
+            WHERE input_name = %s
+        """, (tvdb_id, matched_name, name))
 
         print(f"Updated: {name} → {matched_name} ({tvdb_id})")
 
     except Exception as e:
         print(f"Failed: {name} → {e}")
 
-# --- save ---
-df_lookup.to_csv(lookup_path, index=False, encoding="utf-8-sig")
+# --- save & close ---
+conn.commit()
+
+cur.close()
+conn.close()
 
 print("Lookup table updated.")
+
+
