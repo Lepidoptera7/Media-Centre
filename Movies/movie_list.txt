@@ -214,7 +214,7 @@ Enter the Dragon
 Game of Death
 Way of the Dragon
 Fist of Fury
-Big Boss
+The Big Boss
 Big Trouble in Little China
 Schindler's List
 Baby Driver
@@ -382,7 +382,6 @@ Justice League
 Aquaman
 Shazam
 The Kitchen
-Joker
 Birds of Prey
 Wonder Woman 1984
 Zach Snyder's Justice League
@@ -396,3 +395,5 @@ Aquaman and the Lost Kingdom
 Joker: Folie a Deux
 Superman (2025)
 The Woman King
+Django Unchained
+My Name is Nobody (4630)
