@@ -1,14 +1,24 @@
+from datetime import datetime
 from dotenv import load_dotenv
 import os
 import psycopg2
+from rapidfuzz import fuzz
+import re
 import tvdb_v4_official
 
 # --- base variables ---
 load_dotenv()
 
+run_id = datetime.now().strftime("%Y%m%d_%H%M")
+
 mov_dir = os.getenv("MOVIE_DIR")
 movie_list_path = mov_dir + "/movie_list.txt"
 
+log_dir = os.getenv("MV_LOG_DIR")
+log_path = os.path.join(log_dir + f"/{run_id}_LU.txt")
+os.makedirs(os.path.dirname(log_path), exist_ok=True)
+
+# --- api key check ---
 api_key = os.getenv("TVDB_API_KEY")
 assert api_key is not None, "Missing API key"
 
@@ -25,38 +35,98 @@ conn = psycopg2.connect(
 
 cur = conn.cursor()
 
+def clean_text(s):
+    return s.replace("\ufeff", "").strip() if s else s
+
+def normalize(s):
+    return re.sub(r'[^a-z0-9 ]', '', s.lower())
+
+
 # --- load new names ---
 with open(movie_list_path, "r", encoding="utf-8") as f:
-    new_names = [line.strip() for line in f if line.strip()]
+    new_names = []
+    for line in f:
+        name = clean_text(line)
+        if name:
+            new_names.append(name)
 
 # --- Insert new names, ignore duplicates ---
 for name in new_names:
     cur.execute("""
         INSERT INTO movie_lookup (input_name, matched_name, tvdb_id)
-        VALUES (%s, NULL, NULL)
+        VALUES (TRIM(%s), NULL, NULL)
         ON CONFLICT (input_name) DO NOTHING
     """, (name,))
 
 conn.commit()
 
-# --- TVDB resolver ---
+
 def resolve_tvdb_id(tvdb, name):
-    try:
-        results = tvdb.search(name)
-    except Exception:
-        return None, None
-
+    results = tvdb.search(name)
     if not results:
+        print(f"No results for: {name}")
+        log(f"NO MATCH: {name} (no match)")
         return None, None
 
-    # exact match (case-insensitive)
-    for r in results:
-        if r.get("name", "").lower() == name.lower():
-            return r.get("tvdb_id"), r.get("name")
+    name_n = normalize(name)
 
-    # fallback to first result
-    r = results[0]
-    return r.get("tvdb_id"), r.get("name")
+    # 1. auto-accept high confidence match
+    best = None
+    best_score = 0
+
+    for r in results:
+        candidate = r.get("name", "")
+        score = fuzz.ratio(name_n, normalize(candidate))
+
+        if score > best_score:
+            best_score = score
+            best = r
+
+    if best_score >= 95:
+        print(f"AUTO: {name}")
+        log(f"AUTO: {name}")
+        return best["tvdb_id"], best["name"]
+
+    # 2. manual review (top 5)
+    start = 0
+
+    while True:
+        batch = results[start:start+5]
+
+        if not batch:
+            print("No more results.")
+            print()
+            log(f"SKIPPED: {name} (no match)")
+            return None, None
+
+        print(f"\nManual selection for: {name}")
+        for i, r in enumerate(batch):
+            print(f"{i+1}. {r.get('name')} ({r.get('tvdb_id')})")
+
+        print("\nOptions: 1-5 select | n = next 5 | s = skip")
+
+        choice = input("> ").strip().lower()
+
+        if choice == "s":
+            print(f"SKIPPED: {name}")
+            print()
+            log(f"SKIPPED: {name} (no match)")
+            return None, None
+
+        if choice == "n":
+            start += 5
+            continue
+
+        if choice.isdigit():
+            idx = int(choice) - 1
+            if 0 <= idx < len(batch):
+                r = batch[idx]
+                log(f"MANUAL UPDATED: {name}")
+                return r["tvdb_id"], r.get("name")
+            else:
+                print("Invalid selection")
+                continue
+
 
 # --- update missing rows only ---
 cur.execute("""
@@ -70,6 +140,12 @@ for (name,) in missing_rows:
     try:
         tvdb_id, matched_name = resolve_tvdb_id(tvdb, name)
 
+        if tvdb_id is None:
+            print(f"Failed to resolve tvdb_id: {name}")
+            print()
+            log(f"SKIPPED: {name}")
+            continue
+
         cur.execute("""
             UPDATE movie_lookup
             SET tvdb_id = %s,
@@ -78,9 +154,15 @@ for (name,) in missing_rows:
         """, (tvdb_id, matched_name, name))
 
         print(f"Updated: {name} → {matched_name} ({tvdb_id})")
+        print()
+        log(f"UPDATED: {name} → {matched_name} ({tvdb_id})\n")
 
     except Exception as e:
+        conn.rollback()
         print(f"Failed: {name} → {e}")
+        print()
+        log(f"FAILED: {name} | ERROR: {e}\n")
+
 
 # --- save & close ---
 conn.commit()

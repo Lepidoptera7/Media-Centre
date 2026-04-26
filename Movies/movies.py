@@ -1,3 +1,4 @@
+from datetime import datetime
 from dotenv import load_dotenv
 import os
 import psycopg2
@@ -5,8 +6,15 @@ import tvdb_v4_official
 
 # --- setup ---
 load_dotenv()
+
+run_id = datetime.now().strftime("%Y%m%d_%H%M")
+
 api_key = os.getenv("TVDB_API_KEY")
 mov_dir = os.getenv("MOVIE_DIR")
+
+log_dir = os.getenv("MV_LOG_DIR")
+log_path = os.path.join(log_dir + f"/{run_id}_MV.txt")
+os.makedirs(os.path.dirname(log_path), exist_ok=True)
 
 tvdb = tvdb_v4_official.TVDB(api_key)
 
@@ -43,6 +51,10 @@ def clean_int(value):
     except (TypeError, ValueError):
         return None
 
+def log(msg):
+    with open(log_path, "a", encoding="utf-8") as f:
+        f.write(f"[{datetime.now().strftime("%Y-%m-%d %H:%M")}] {msg}\n")
+
 # --- process ---
 for movie_id in to_process:
     print(f"Processing: {lookup.get(movie_id, movie_id)}")
@@ -78,6 +90,9 @@ for movie_id in to_process:
             data.get("status", {}).get("recordType"),
             False
         ))
+        print("Updated: ", lookup[movie_id])
+        print()
+        log(f"UPDATED: {lookup[movie_id]} (no match)")
 
         # --- cast ---
         for c in data.get("characters", []):
@@ -98,6 +113,8 @@ for movie_id in to_process:
 
     except Exception as e:
         print(f"Failed: {lookup[movie_id]} → {e}")
+        print()
+        log(f"FAILED UPDATE: {lookup[movie_id]} (no match)")
 
 conn.commit()
 cur.close()

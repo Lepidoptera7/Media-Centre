@@ -24,6 +24,7 @@ Captain America: Civil War
 Doctor Strange
 Guardians of the Galaxy Vol. 2
 Spider-Man: Homecoming
+Spider-Man: Far From Home
 Thor: Ragnarok
 Black Panther
 Avengers: Infinity War
@@ -248,7 +249,7 @@ Fullmetal Jacket
 Once Upon a Time in the West
 Cinema Paradiso
 The Intouchables
-Casablance
+Casablanca
 Reservoir Dogs
 Kill Bill Vol 1.
 Kill Bill Vol 2.
@@ -329,7 +330,7 @@ Saw IV
 Saw V
 Saw Vi
 Jigsaw
-Spiral
+Spiral: From the Book of Saw
 Saw X
 Final Destination
 Final Destination 2
@@ -352,11 +353,11 @@ Kung Fu Panda 3
 Kung Fu Panda 4
 The Road to El Dorado
 The Spy Next Door
-The Karate Kid (1984)
+The Karate Kid (2283)
 The Karate Kid Part II
 The Karate Kid Part III
 The Next Karate Kid
-The Karate Kid (2010)
+The Karate Kid (1594)
 Shrek
 Shrek 2
 Shrek the Third
@@ -404,3 +405,51 @@ Despicable Me 3
 Despicable Me 4
 Minions
 Minions: The Rise of Gru
+From Dusk Till Dawn
+Legend
+I Am Legend
+Spiral
+The Menu
+Orphan
+Dune: Part One (6187)
+Dune (1406)
+Dune: Part Two
+Free Guy
+Venom (45)
+Venom: Let There Be Carnage
+Morbius
+Venom: The Last Dance
+Kraven the Hunter
+Dr. No
+From Russia With Love
+Goldfinger
+Thunderball
+You Only Live Twice
+Diamonds Are Forever
+Never Say Never Again
+On Her Majesty's Secret Service
+Live and Let Die
+The Man With the Golden Gun
+The Spy Who Loved Me
+Moonraker
+For Your Eyes Only
+Octopussy
+A View to Kill
+The Living Daylights
+License To Kill
+GoldenEye
+Tomorrow Never Dies
+The World Is Not Enough
+Die Another Day
+Casino Royale
+Quantum of Solace
+Skyfall
+Spectre
+No Time to Die
+Austin Powers: International Man of Mystery
+Austin Powers: The Spy Who Shagged Me
+Austin Powers in Goldmember
+Johnny English
+Johnny English Reborn
+Johnny English Strikes Again
+Get Smart (1661)
