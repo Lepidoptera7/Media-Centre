@@ -6,7 +6,7 @@ from rapidfuzz import fuzz
 import re
 import tvdb_v4_official
 
-# --- base variables ---
+# --- setup ---
 load_dotenv()
 
 run_id = datetime.now().strftime("%Y%m%d_%H%M")
@@ -18,7 +18,6 @@ log_dir = os.getenv("MV_LOG_DIR")
 log_path = os.path.join(log_dir + f"/{run_id}_LU.txt")
 os.makedirs(os.path.dirname(log_path), exist_ok=True)
 
-# --- api key check ---
 api_key = os.getenv("TVDB_API_KEY")
 assert api_key is not None, "Missing API key"
 
@@ -41,6 +40,9 @@ def clean_text(s):
 def normalize(s):
     return re.sub(r'[^a-z0-9 ]', '', s.lower())
 
+def log(msg):
+    with open(log_path, "a", encoding="utf-8") as f:
+        f.write(f"[{datetime.now().strftime("%Y-%m-%d %H:%M")}] {msg}\n")
 
 # --- load new names ---
 with open(movie_list_path, "r", encoding="utf-8") as f:
@@ -134,6 +136,7 @@ cur.execute("""
     FROM movie_lookup
     WHERE tvdb_id IS NULL
 """)
+
 missing_rows = cur.fetchall()
 
 for (name,) in missing_rows:

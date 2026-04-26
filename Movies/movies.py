@@ -9,15 +9,18 @@ load_dotenv()
 
 run_id = datetime.now().strftime("%Y%m%d_%H%M")
 
-api_key = os.getenv("TVDB_API_KEY")
 mov_dir = os.getenv("MOVIE_DIR")
 
 log_dir = os.getenv("MV_LOG_DIR")
 log_path = os.path.join(log_dir + f"/{run_id}_MV.txt")
 os.makedirs(os.path.dirname(log_path), exist_ok=True)
 
+api_key = os.getenv("TVDB_API_KEY")
+assert api_key is not None, "Missing API key"
+
 tvdb = tvdb_v4_official.TVDB(api_key)
 
+# --- PostgreSQL connection ---
 conn = psycopg2.connect(
     dbname=os.getenv("SQL_DB"),
     user=os.getenv("SQL_USER"),
@@ -55,7 +58,7 @@ def log(msg):
     with open(log_path, "a", encoding="utf-8") as f:
         f.write(f"[{datetime.now().strftime("%Y-%m-%d %H:%M")}] {msg}\n")
 
-# --- process ---
+# --- update DB ---
 for movie_id in to_process:
     print(f"Processing: {lookup.get(movie_id, movie_id)}")
 
