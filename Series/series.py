@@ -77,7 +77,7 @@ for series_id in to_process:
 
         cur.execute("""
             INSERT INTO movies (
-                id, name, slug, genres, year, franchise,
+                id, name, slug, genres, year, franchise, original_country, original_language, acquired
             )
             VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
             ON CONFLICT (id) DO NOTHING
@@ -85,118 +85,64 @@ for series_id in to_process:
             data.get("id"),
             data.get("name"),
             data.get("slug"),
-            data.get("runtime"),
-            data.get("year"),
             genres,
-            clean_int(data.get("budget")),
-            clean_int(data.get("boxOffice")),
+            data.get("year"),
+            franchise,
             data.get("originalCountry"),
             data.get("originalLanguage"),
-            franchise,
             data.get("status", {}).get("recordType"),
             False
         ))
-        print("Updated: ", lookup[movie_id])
+        print("Updated: ", lookup[series_id])
         print()
-        log(f"UPDATED: {lookup[movie_id]} (no match)")
+        log(f"UPDATED: {lookup[series_id]} (no match)")
 
 
+        # --- cast ---
+        for c in data.get("characters", []):
+            cur.execute("""
+                INSERT INTO series_cast (
+                    id, people_id, series_id,
+                    person_name, role_name, people_type
+                )
+                VALUES (%s, %s, %s, %s, %s, %s)
+            """, (
+                c.get("id"),
+                c.get("peopleId"),
+                series_id,
+                c.get("personName"),
+                c.get("name"),
+                c.get("peopleType")
+            ))
 
-
-
-
-
-
-
-
-
-# keep only valid rows
-df_lookup = df_lookup.dropna(subset=["tvdb_id"])
-
-input_ids = df_lookup["tvdb_id"].astype(int).tolist()
-
-existing_csv = r"/mnt/58280C00280BDBBE/Media-Centre/Series/series_data.csv"
-
-if os.path.exists(existing_csv):
-    df_existing = pd.read_csv(existing_csv)
-    processed = set(df_existing["id"].dropna().astype(int).unique())
-else:
-    processed = set()
-
-to_process_df = df_lookup[~df_lookup["tvdb_id"].isin(processed)]
-
-# --- containers ---
-all_series = []
-all_episodes = []
-all_cast = []
-
-# --- loop through series ---
-for _, row in to_process_df.iterrows():
-    series_id = row["tvdb_id"]
-    series_name = row["input_name"]
-    print(f"Processing: {series_name}")
-
-    try:
-        # --- fetch data ---
-        series = tvdb.get_series_extended(series_id)
-        episodes = tvdb.get_series_episodes(series_id)
-        cast = series["characters"]
-
-        # --- SERIES ---
-        df_series = pd.json_normalize(series)[["id", "name", "slug", "genres", "year", "lists"]]
-
-        df_series["genres"] = df_series["genres"].apply(
-            lambda x: ", ".join(g["name"] for g in x) if isinstance(x, list) else None
-        )
-
-        df_series = df_series.rename(columns={"lists": "franchise"})
-        df_series["franchise"] = df_series["franchise"].apply(
-            lambda x: x[0]["name"] if isinstance(x, list) and len(x) > 0 else None
-        )
-        if "acquired" not in df_series.columns:
-            df_series.insert(2, "acquired", False)
-        all_series.append(df_series)
-
-        # --- EPISODES ---
-        df_episodes = (
-            pd.json_normalize(episodes)["episodes"]
-            .explode()
-            .dropna()
-            .pipe(pd.json_normalize)[[
-                "id", "seriesId", "name", "aired", "overview",
-                "number", "absoluteNumber", "seasonNumber", "year"
-            ]]
-        )
-        all_episodes.append(df_episodes)
-
-        # --- CAST ---
-        df_cast = pd.json_normalize(cast)[[
-            "id", "peopleId", "seriesId", "personName", "name"
-        ]]
-        all_cast.append(df_cast)
+        # --- episodes ---
+        for e in data.get("episodes", []):
+            cur.execute("""
+                INSERT INTO series_episodes (
+                    id, series_id, name, aired, overview
+                    number, absolute_number, season_number, year
+                )
+                VALUES (%s, %s, %s, %s, %s, %s)
+            """, (
+                c.get("id"),
+                series_id,
+                c.get("name"),
+                c.get("aired"),
+                c.get("overview"),
+                c.get("number"),
+                c.get("absoluteNumber"),
+                c.get("seasonNumber"),
+                c.get("year")
+            ))
 
     except Exception as e:
-        print(f"Failed for {series_name}: {e}")
+        print(f"Failed: {lookup[movie_id]} → {e}")
+        print()
+        log(f"FAILED UPDATE: {lookup[movie_id]} (no match)")
+conn.commit()
+cur.close()
+conn.close()
 
-# Combine Everything
-# Export
-if all_series:
-    df_series_all = pd.concat(all_series, ignore_index=True)
-    df_series_all.to_csv(series_csv, mode="a", header=not os.path.exists(series_csv), index=False)
-else:
-    print("Series table is up to date.")
-
-if all_episodes:
-    df_episodes_all = pd.concat(all_episodes, ignore_index=True)
-    df_episodes_all.to_csv(episodes_csv, mode="a", header=not os.path.exists(episodes_csv), index=False)
-else:
-    print("Episodes table is up to date.")
-
-if all_cast:
-    df_cast_all = pd.concat(all_cast, ignore_index=True)
-    df_cast_all.to_csv(cast_csv, mode="a", header=not os.path.exists(cast_csv), index=False)
-else:
-    print("Cast table is up to date.")
+print("Done")
 
 
-print("Done.")
