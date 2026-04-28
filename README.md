@@ -40,6 +40,7 @@ A personal project to learn Python and PostgreSQL by building a small data pipel
 
 ## Future
 
+* Metabase dashboard for data analysis
 * Expand to organise books
 * Add music library support
 
