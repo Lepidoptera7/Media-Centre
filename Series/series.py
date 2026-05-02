@@ -35,6 +35,7 @@ conn = psycopg2.connect(
 
 cur = conn.cursor()
 
+
 def clean_text(s):
     return s.replace("\ufeff", "").strip() if s else s
 
@@ -69,6 +70,8 @@ for series_id in to_process:
 
     try:
         data = tvdb.get_series_extended(series_id)
+        characters = data.get("characters") or []
+        episodes = data.get("episodes") or []
 
         # --- series ---
         genres = ", ".join(g["name"] for g in data.get("genres", [])) if data.get("genres") else None
@@ -76,10 +79,10 @@ for series_id in to_process:
         franchise = lists[0]["name"] if len(lists) > 0 else None
 
         cur.execute("""
-            INSERT INTO movies (
-                id, name, slug, genres, year, franchise, original_country, original_language, acquired
+            INSERT INTO series (
+                id, name, slug, genres, year, franchise, original_country, original_language
             )
-            VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+            VALUES (%s, %s, %s, %s, %s, %s, %s, %s)
             ON CONFLICT (id) DO NOTHING
         """, (
             data.get("id"),
@@ -89,17 +92,15 @@ for series_id in to_process:
             data.get("year"),
             franchise,
             data.get("originalCountry"),
-            data.get("originalLanguage"),
-            data.get("status", {}).get("recordType"),
-            False
+            data.get("originalLanguage")
         ))
         print("Updated: ", lookup[series_id])
         print()
-        log(f"UPDATED: {lookup[series_id]} (no match)")
+        log(f"UPDATED: {lookup[series_id]}")
 
 
         # --- cast ---
-        for c in data.get("characters", []):
+        for c in characters:
             cur.execute("""
                 INSERT INTO series_cast (
                     id, people_id, series_id,
@@ -116,29 +117,29 @@ for series_id in to_process:
             ))
 
         # --- episodes ---
-        for e in data.get("episodes", []):
+        for e in episodes:
             cur.execute("""
                 INSERT INTO series_episodes (
-                    id, series_id, name, aired, overview
+                    id, series_id, name, aired, overview,
                     number, absolute_number, season_number, year
                 )
-                VALUES (%s, %s, %s, %s, %s, %s)
+                VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s)
             """, (
-                c.get("id"),
+                e.get("id"),
                 series_id,
-                c.get("name"),
-                c.get("aired"),
-                c.get("overview"),
-                c.get("number"),
-                c.get("absoluteNumber"),
-                c.get("seasonNumber"),
-                c.get("year")
+                e.get("name"),
+                e.get("aired"),
+                e.get("overview"),
+                e.get("number"),
+                e.get("absoluteNumber"),
+                e.get("seasonNumber"),
+                e.get("year")
             ))
 
     except Exception as e:
-        print(f"Failed: {lookup[movie_id]} → {e}")
+        print(f"Failed: {lookup[series_id]} → {e}")
         print()
-        log(f"FAILED UPDATE: {lookup[movie_id]} (no match)")
+        log(f"FAILED UPDATE: {lookup[series_id]} (no match)")
 conn.commit()
 cur.close()
 conn.close()

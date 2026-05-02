@@ -95,7 +95,7 @@ for movie_id in to_process:
         ))
         print("Updated: ", lookup[movie_id])
         print()
-        log(f"UPDATED: {lookup[movie_id]} (no match)")
+        log(f"UPDATED: {lookup[movie_id]}")
 
         # --- cast ---
         for c in data.get("characters", []):
