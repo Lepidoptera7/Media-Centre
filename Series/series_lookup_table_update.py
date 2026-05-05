@@ -1,76 +1,175 @@
-import pandas as pd
-import tvdb_v4_official
+from datetime import datetime
+from dotenv import load_dotenv
 import os
+import psycopg2
+from rapidfuzz import fuzz
+import re
+import tvdb_v4_official
 
-# --- paths ---
-lookup_path = r"/mnt/58280C00280BDBBE/Media-Centre/Series/series_lookup.csv"
-series_list_path = r"/mnt/58280C00280BDBBE/Media-Centre/Series/series_list.txt"
-api_key_path = r"/mnt/58280C00280BDBBE/Media-Centre/tvdb.txt"
+# --- setup ---
+load_dotenv()
 
-# --- load API key ---
-with open(api_key_path, "r") as f:
-    api_key = f.read().strip()
+run_id = datetime.now().strftime("%Y%m%d_%H%M")
+
+
+ser_dir = os.getenv("SERIES_DIR")
+series_list_path = os.path.join(ser_dir + "/series_list.txt")
+
+log_dir = os.getenv("SR_LOG_DIR")
+log_path = os.path.join(log_dir + f"/{run_id}_LU.txt")
+os.makedirs(os.path.dirname(log_path), exist_ok=True)
+
+api_key = os.getenv("TVDB_API_KEY")
+assert api_key is not None, "Missing API Key"
 
 tvdb = tvdb_v4_official.TVDB(api_key)
 
-# --- load or create lookup table ---
-if os.path.exists(lookup_path):
-    df_lookup = pd.read_csv(lookup_path)
-else:
-    df_lookup = pd.DataFrame(columns=["input_name", "matched_name", "tvdb_id"])
+# --- PostgreSQL connection ---
+conn = psycopg2.connect(
+    dbname = os.getenv("SQL_DB"),
+    user = os.getenv("SQL_USER"),
+    password = os.getenv("SQL_PWD"),
+    host = "localhost",
+    port = "5432",
+)
 
-# --- ensure columns exist ---
-for col in ["input_name", "matched_name", "tvdb_id"]:
-    if col not in df_lookup.columns:
-        df_lookup[col] = None
+cur = conn.cursor()
+
+def clean_text(s):
+    return s.replace("\ufeff", "").strip() if s else s
+
+def normalize(s):
+    return re.sub(r'[^a-z0-9 ]', '', s.lower())
+
+def log(msg):
+    with open(log_path, "a", encoding="utf-8") as f:
+        f.write(f"[{datetime.now().strftime("%Y-%m-%d %H:%M")}] {msg}\n")
 
 # --- load new names ---
 with open(series_list_path, "r", encoding="utf-8") as f:
-    new_names = [line.strip() for line in f if line.strip()]
+    new_names = []
+    for line in f:
+        name = clean_text(line)
+        if name:
+            new_names.append(name)
 
-# --- add new names (no duplicates) ---
-existing_names = set(df_lookup["input_name"].astype(str))
-
+# --- Insert new names, ignore duplicates ---
 for name in new_names:
-    if name not in existing_names:
-        df_lookup.loc[len(df_lookup)] = [name, None, None]
+    cur.execute("""
+        INSERT INTO series_lookup (input_name, matched_name, tvdb_id)
+        VALUES (TRIM(%s), NULL, NULL)
+        ON CONFLICT (input_name) DO NOTHING
+    """, (name,))
 
-# --- force dtype AFTER all inserts ---
-df_lookup["tvdb_id"] = pd.to_numeric(df_lookup["tvdb_id"], errors="coerce").astype("Int64")
+conn.commit()
 
-# --- resolver ---
 def resolve_tvdb_id(tvdb, name):
     results = tvdb.search(name)
     if not results:
+        print(f"No results for: {name}")
+        log(f"NO MATCH: {name} (no match)")
         return None, None
 
-    # exact match
-    for r in results:
-        if r.get("name", "").lower() == name.lower():
-            return r["tvdb_id"], r.get("name")
+    name_n = normalize(name)
 
-    # fallback
-    r = results[0]
-    return r["tvdb_id"], r.get("name")
+    # 1. auto-accept high confidence match
+    best = None
+    best_score = 0
+
+    for r in results:
+        candidate = r.get("name", "")
+        score = fuzz.ratio(name_n, normalize(candidate))
+
+        if score > best_score:
+            best_score = score
+            best = r
+
+    if best_score >= 95:
+        print(f"AUTO: {name}")
+        log(f"AUTO: {name}")
+        return best["tvdb_id"], best["name"]
+
+    # 2. manual review (top 5)
+    start = 0
+
+    while True:
+        batch = results[start:start+5]
+
+        if not batch:
+            print("No more results.")
+            print()
+            log(f"SKIPPED: {name} (no match)")
+            return None, None
+
+        print(f"\nManual selection for: {name}")
+        for i, r in enumerate(batch):
+            print(f"{i+1}. {r.get('name')} ({r.get('tvdb_id')})")
+
+        print("\nOptions: 1-5 select | n = next 5 | s = skip")
+
+        choice = input("> ").strip().lower()
+
+        if choice == "s":
+            print(f"SKIPPED: {name}")
+            print()
+            log(f"SKIPPED: {name} (no match)")
+            return None, None
+
+        if choice == "n":
+            start += 5
+            continue
+
+        if choice.isdigit():
+            idx = int(choice) - 1
+            if 0 <= idx < len(batch):
+                r = batch[idx]
+                log(f"MANUAL UPDATED: {name}")
+                return r["tvdb_id"], r.get("name")
+            else:
+                print("Invalid selection")
+                continue
 
 # --- update missing rows only ---
-mask = df_lookup["tvdb_id"].isna()
+cur.execute("""
+    SELECT input_name
+    FROM series_lookup
+    WHERE tvdb_id IS NULL
+""")
 
-for idx in df_lookup[mask].index:
-    name = df_lookup.loc[idx, "input_name"]
+missing_rows = cur.fetchall()
 
+for (name,) in missing_rows:
     try:
         tvdb_id, matched_name = resolve_tvdb_id(tvdb, name)
 
-        df_lookup.loc[idx, "tvdb_id"] = int(tvdb_id) if tvdb_id else None
-        df_lookup.loc[idx, "matched_name"] = matched_name
+        if tvdb_id is None:
+            print(f"Failed to resolve tvdb_id: {name}")
+            print()
+            log(f"SKIPPED: {name}")
+            continue
+
+        cur.execute("""
+            UPDATE series_lookup
+            SET tvdb_id = %s,
+                matched_name = %s
+            WHERE input_name = %s
+        """, (tvdb_id, matched_name, name))
 
         print(f"Updated: {name} → {matched_name} ({tvdb_id})")
+        print()
+        log(f"UPDATED: {name} → {matched_name} ({tvdb_id})\n")
 
     except Exception as e:
+        conn.rollback()
         print(f"Failed: {name} → {e}")
+        print()
+        log(f"FAILED: {name} | ERROR: {e}\n")
 
-# --- save ---
-df_lookup.to_csv(lookup_path, index=False, encoding="utf-8-sig")
+
+# --- save & close ---
+conn.commit()
+
+cur.close()
+conn.close()
 
 print("Lookup table updated.")
