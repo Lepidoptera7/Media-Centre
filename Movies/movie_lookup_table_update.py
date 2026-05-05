@@ -42,7 +42,7 @@ def normalize(s):
 
 def log(msg):
     with open(log_path, "a", encoding="utf-8") as f:
-        f.write(f"[{datetime.now().strftime("%Y-%m-%d %H:%M")}] {msg}\n")
+        f.write(f"[{datetime.now().strftime("%Y-%m-%d %H:%M")}] {msg}\n\n")
 
 # --- load new names ---
 with open(movie_list_path, "r", encoding="utf-8") as f:
