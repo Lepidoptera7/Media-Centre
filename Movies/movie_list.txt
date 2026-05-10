@@ -314,7 +314,7 @@ Prometheus
 Aliens vs Predator: Requiem
 Alien vs Predator
 Alien
-Ateam
+The A-Team
 The Exorcism of Emily Rose
 Scary Movie
 Scary Movie 2
@@ -455,3 +455,31 @@ Johnny English Strikes Again
 Get Smart (1661)
 A Knight's Tale
 White Chicks
+The Conjuring
+Annabelle
+The Conjuring 2
+Anabelle: Creation
+The Nun
+Anabelle Comes Home
+The Conjuring: The Devil Made Me Do It
+The Nun II
+The Conjuring: Last Rites
+Midsommar
+Tenacious D in the Pick of Destiny
+Apocalypto
+Resident Evil
+Resident Evil Afterlife
+Resident Evil Apocalypse
+Resident Evil Extinction
+Resident Evil Retribution
+Resident Evil The Final Chapter
+The Crow
+Transformers
+Transformers: Revenge of the Fallen
+Transformers: Dark of the Moon
+Transformers: Age of Extinction
+Transformers: The Last Knight
+Bumblebee
+Transformers: Rise of the Beasts
+Smallfoot
+Moon Rabbit
