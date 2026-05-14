@@ -292,6 +292,7 @@ The Dark Knight
 Batman Begins
 The Godfather Part II
 The Godfather
+The Godfather: Part III
 The Shawshank Redemption
 Rambo: Last Blood
 Rambo
@@ -483,3 +484,117 @@ Bumblebee
 Transformers: Rise of the Beasts
 Smallfoot
 Moon Rabbit
+Anastasia (933)
+Back to the Future (299)
+Back to the Future Part II
+Back to the Future Part III
+Mission: Impossible
+Mission: Impossible II
+Mission: Impossible III
+Mission: Impossible - Ghost Protocol
+Mission: Impossible - Rogue Nation
+Mission: Impossible - Fallout
+Mission: Impossible - Dead Reckoning Part One
+Mission: Impossible - The Final Reckoning
+X-Men
+X2
+X-Men: The Last Stand
+X-Men Origins Wolverine
+X-Men: First Class
+The Wolverine
+X-Men: Days of Future Past
+Deadpool
+X-Men: Apocalypse
+Logan
+Deadpool 2
+Dark Phoenix
+The New Mutants
+Spider-Man (301)
+Spider-Man 2 (6389)
+Spider-Man 3 (586)
+The Amazing Spider-Man (552)
+The Amazing Spider-Man 2 (473)
+Peacemaker
+Men In Black
+Men In Black II
+Men In Black 3
+Men In Black: International
+Die Hard
+Die Hard 2
+Die Hard: With a Vengeance
+Live Free or Die Hard
+A Good Day to Die Hard
+Unbreakable
+Split
+Glass
+Ghostbusters (816)
+Ghostbusters II
+Ghostbusters (739)
+Ghostbusters: Afterlife
+Ghostbusters: Frozen Empire
+The Bourne Identity
+The Bourne Supremacy
+The Bourne Ultimatum
+The Bourne Legacy
+Jason Bourne
+Blade Runner
+2036: Nexus Dawn
+2048: Nowhere to Run
+Blade Runner: Black Out 2022
+Blade Runner 2049
+Kingsman: The Secret Service
+Kingsman: The Golden Circle
+The King's Man
+A Nightmare on Elm Street
+A Nightmare on Elm Street 2: Freddy's Revenge
+A Nightmare on Elm Street 3: Dream Warriors
+A Nightmare on Elm Street 4: The Dream Master
+A Nightmare on Elm Street 5: The Dream Child
+Freddy's Dead: The Final Nightmare
+Wes Craven's New Nightmare
+Freddy vs Jason
+Night at the Museum
+Night at the Museum: Battle of the Smithsonian
+Night at the Museum: Secret of the Tomb
+Pirates of the Caribbean: The Curse of the Black Pearl
+Pirates of the Caribbean: Dead Man's Chest
+Pirates of the Caribbean: At World's End
+Pirates of the Caribbean: On Stranger Tides
+Pirates of the Caribbean: Tales of the Code: Wedlocked
+Pirates of the Caribbean: Dead Men Tell No Tales
+The Hunger Games
+The Hunger Games: Catching Fire
+The Hunger Games: Mockingjay - Part 1
+The Hunger Games: Mockingjay - Part 2
+The Hunger Games The Ballad of Songirds & Snakes
+Planet of the Apes (1440)
+Planet of the Apes (2032)
+Beneath the Planet of the Apes (2793)
+Escape from the Planet of the Apes (3664)
+Conquest of the Planet of the Apes (4992)
+Battle for the Planet of the Apes (5119)
+Rise of the Planet of the Apes
+Dawn of the Planet of the Apes
+War for the Planet of the Apes
+Kingdom of the Planet of the Apes
+Fall Guy
+Cloverfield
+10 Cloverfield Lane
+The Cloverfield Paradox
+Rocky
+Rocky II
+Rocky III
+Rocky IV
+Rocky V
+Rocky Balboa
+Creed
+Creed II
+Creed III
+Twilight
+The Twilight Saga: New Moon
+The Twilight Saga: Eclipse
+The Twilight Saga: Breaking Dawn - Part 1
+The Twilight Saga: Breaking Dawn - Part 2
+Ocean's Eleven
+Ocean's Twelve
+Ocean's Thirteen
