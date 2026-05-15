@@ -512,9 +512,8 @@ The New Mutants
 Spider-Man (301)
 Spider-Man 2 (6389)
 Spider-Man 3 (586)
-The Amazing Spider-Man (552)
-The Amazing Spider-Man 2 (473)
-Peacemaker
+The Amazing Spider-Man (473)
+The Amazing Spider-Man 2 (552)
 Men In Black
 Men In Black II
 Men In Black 3
@@ -656,8 +655,9 @@ Lethal Weapon
 Lethal Weapon 2
 Lethal Weapon 3
 Lethal Weapon 4
-Friday the 13th
-Friday the 13h Part 2
+Friday the 13th (1703)
+Friday the 13th (1499)
+Friday the 13th Part 2
 Friday the 13th Part III
 Friday the 13th: The Final Chapter
 Bad Boys
