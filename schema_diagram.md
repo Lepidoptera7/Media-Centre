@@ -1,4 +1,3 @@
-```mermaid
 erDiagram
 
   movie_lookup {
@@ -70,7 +69,3 @@ erDiagram
     text matched_name
     bigint tvdb_id
   }
-
-  series ||--o{ series_cast : has
-  series ||--o{ series_eps : contains
-```
