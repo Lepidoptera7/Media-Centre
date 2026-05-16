@@ -54,7 +54,8 @@ python main.py series
 python main.py all
 ```
 
-Each workflow runs lookup updates first, then pulls TVDB data into PostgreSQL, then updates acquired status from your storage folders.
+Each workflow runs a lookup table update first, then pulls data from thetvdb.com and finally updates the acquired status from your storage folders.
+Personalise your own list of movies and TV shows via the text files and have fun.
 
 ## Future
 
@@ -68,4 +69,4 @@ This project is for learning and experimenting with Python data workflows and re
 
 ---
 
-Constructive criticism appreciated, and movie/TV show recommendations are even better.
+Constructive criticism is appreciated, but movie/TV show recommendations are even better.
