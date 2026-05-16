@@ -1,12 +1,13 @@
-``` mermaid
+```mermaid
 erDiagram
-    movie_lookup {
+
+  movie_lookup {
     text input_name PK
     text matched_name
-    bigint tvdb_id "UNIQUE (partial, non-null)"
-    }
+    bigint tvdb_id
+  }
 
-    movies {
+  movies {
     bigint id PK
     text name
     text slug
@@ -20,18 +21,18 @@ erDiagram
     text franchise
     text record_type
     boolean acquired
-    }
+  }
 
-    movies_cast {
+  movies_cast {
     bigint id PK
     bigint people_id
     bigint movie_id
     text person_name
     text role_name
     text people_type
-    }
+  }
 
-    series {
+  series {
     bigint id PK
     text name
     text slug
@@ -41,20 +42,20 @@ erDiagram
     text original_country
     text original_language
     boolean acquired
-    }
+  }
 
-    series_cast {
+  series_cast {
     bigint id PK
     bigint people_id
-    bigint series_id FK
+    bigint series_id
     text person_name
     text role_name
     text people_type
-    }
+  }
 
-    series_eps {
+  series_eps {
     bigint id PK
-    bigint seriesid FK
+    bigint seriesid
     text name
     date aired
     text overview
@@ -62,15 +63,14 @@ erDiagram
     int absolutenumber
     int seasonnumber
     int year
-    }
+  }
 
-    series_lookup {
+  series_lookup {
     text input_name PK
     text matched_name
-    bigint tvdb_id "UNIQUE (partial, non-null)"
-    }
+    bigint tvdb_id
+  }
 
-    series ||--o{ series_cast : has
-    series ||--o{ series_eps : contains
-
+  series ||--o{ series_cast : has
+  series ||--o{ series_eps : contains
 ```
