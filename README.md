@@ -36,7 +36,7 @@ A personal project to learn Python and PostgreSQL by building a small data pipel
    LOG_DIR=path_to_logs
    ```
 
-2. Create database tables using provided SQL scripts.
+2. Create database tables using provided SQL schema.
 
 ## Updating Databases
 
