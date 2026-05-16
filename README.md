@@ -38,6 +38,24 @@ A personal project to learn Python and PostgreSQL by building a small data pipel
 
 2. Create database tables using provided SQL scripts.
 
+## Updating Databases
+
+Run the main updater from the project root:
+
+```bash
+python main.py
+```
+
+Choose movies, series, or all when prompted. You can also skip the prompt:
+
+```bash
+python main.py movies
+python main.py series
+python main.py all
+```
+
+Each workflow runs lookup updates first, then pulls TVDB data into PostgreSQL, then updates acquired status from your storage folders.
+
 ## Future
 
 * Metabase dashboard for data analysis

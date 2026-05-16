@@ -172,4 +172,4 @@ conn.commit()
 cur.close()
 conn.close()
 
-print("Lookup table updated.")
+print("Series lookup table up to date.")

@@ -173,6 +173,6 @@ conn.commit()
 cur.close()
 conn.close()
 
-print("Lookup table updated.")
+print("Movies lookup table up to date.")
 
 

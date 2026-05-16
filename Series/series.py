@@ -144,6 +144,6 @@ conn.commit()
 cur.close()
 conn.close()
 
-print("Done")
+print("Series database up to date.")
 
 

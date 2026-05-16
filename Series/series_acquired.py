@@ -179,4 +179,4 @@ conn.commit()
 cur.close()
 conn.close()
 
-print("Acquisition up to date!")
+print("Acquisition data up to date.")

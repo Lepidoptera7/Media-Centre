@@ -123,4 +123,4 @@ conn.commit()
 cur.close()
 conn.close()
 
-print("Done")
+print("Movies database up to date.")
